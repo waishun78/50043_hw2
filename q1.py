@@ -1,6 +1,8 @@
 import sys
 from pyspark.sql import SparkSession
 from pyspark.context import SparkContext
+from pyspark.sql.types import IntegerType
+
 # you may add more import if you need to
 
 
@@ -19,8 +21,7 @@ df.printSchema()
 df_has_ratings = df.filter(df.Reviews.isNotNull())
 df_ratings_int = df_has_ratings.withColumn('Rating_int', df['Rating'].cast(IntegerType()))
 df_filtered = df_ratings_int.filter(df_ratings_int.Rating_int>=1).drop(['Rating_int'])
-
-output_folder = './assignment2/output/question1'
-df.toPandas().to_csv('hdfs://{hdfs_nn}:9000/assignment2/output/question1/output.csv')
-
-sc.stop()
+df_filtered.show(truncate=False)
+# output_folder = './assignment2/output/question1'
+# df_filtered.toPandas().to_csv('hdfs://{hdfs_nn}:9000/assignment2/output/question1/output.csv')
+# df_filtered.show(truncate=False)
