@@ -1,46 +1,36 @@
 import sys
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, explode_outer, regexp_replace, split
-from pyspark.sql.types import ArrayType, StringType
+from pyspark.sql.functions import col, explode_outer, regexp_replace, split, trim
+from pyspark.sql.types import StringType
 
-
-from pyspark.sql.window import Window
-from pyspark.sql.types import ArrayType, IntegerType 
-# you may add more import if you need to
-
-
-# don't change this line
-hdfs_nn = sys.argv[1]
-
+# Initialize Spark session
 spark = SparkSession.builder.appName("Assigment 2 Question 4").getOrCreate()
-# YOUR CODE GOES BELOW
 
-# note that we load the text file directly with a local path instead of providing an hdfs url
-input_file_name = 'input/TA_restaurants_curated_cleaned.csv'
-hdfs_nn ="172.31.29.168" #TODO: Replace with 
-df = spark.read.option("header",True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/part1/input/')
+# Read the data from HDFS
+hdfs_nn = "172.31.29.168"  # Replace with your actual HDFS NameNode IP
+input_file_name = 'TA_restaurants_curated_cleaned.csv'
+df = spark.read.option("header", True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/part1/input/{input_file_name}')
 df.printSchema()
-# Preprocess the "Cuisine Style" column to make it valid JSON
-df = df.withColumn("Cuisine Style", regexp_replace(col("Cuisine Style"), "^\[ |\]$", ""))  # Trim leading/trailing brackets
-df.show()
-df = df.withColumn("Cuisine Style", regexp_replace(col("Cuisine Style"), "'", '"'))  # Replace single quotes with double quotes
 
-df.show()
-# Convert the JSON string in the DataFrame to a structured column
-#df_cuisine_split = df.withColumn("Cuisine Style", from_json(col("Cuisine Style"), ArrayType(StringType())))
-#df_cuisine_split.show()
+# Preprocess the "Cuisine Style" column to clean it up for splitting
+df = df.withColumn("Cuisine Style", regexp_replace(col("Cuisine Style"), "\[|\]", ""))  # Remove the square brackets
+df = df.withColumn("Cuisine Style", regexp_replace(col("Cuisine Style"), "'", ""))  # Remove single quotes
+df = df.withColumn("Cuisine Style", trim(col("Cuisine Style")))  # Trim whitespace
 
-# Select the relevant columns, renaming as necessary
-df_cuisine_select = df.select(col("City"), col("Cuisine Style").alias("Cuisines"))
-df_cuisine_select.show()
-df_cuisine_split = df_cuisine_select.select(col("City"), split(col("Cuisines"), ','))
-df_cuisine_split.show()
-# Explode the cuisines into separate rows
-df_cuisine_explode = df_cuisine_split.select(col("City"), explode_outer(col("Cuisines")).alias("Cuisine"))
-df_cuisine_explode.show()
+# Split the "Cuisine Style" into an array of cuisines
+df = df.withColumn("Cuisines", split(col("Cuisine Style"), ",\s*").cast("array<string>"))
+
+# Explode the array to have a row for each cuisine per restaurant
+df = df.select(col("City"), explode_outer(col("Cuisines")).alias("Cuisine"))
+
+# Clean up exploded cuisines
+df = df.withColumn("Cuisine", trim(df.Cuisine))
 
 # Group by City and Cuisine to count occurrences
-df_city_cuisine_count = df_cuisine_explode.groupBy("City", "Cuisine").count()
-df_city_cuisine_count.show()
+df_city_cuisine_count = df.groupBy("City", "Cuisine").count()
 
-df_city_cuisine_count.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question4/output.csv', header='true')
+# Show the results
+df_city_cuisine_count.show(truncate=False)
+
+# Write the result to a CSV file in HDFS
+df_city_cuisine_count.write.option("header", "true").csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question4/output.csv')
