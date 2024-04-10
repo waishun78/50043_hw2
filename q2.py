@@ -32,6 +32,6 @@ print("WORST SHAPE:" + str(df_worst_restaurant.count()))
 
 df_out = df_worst_restaurant.union(df_best_restaurant)
 print("COMBINED SHAPE:"+str(df_out.count()))
-df_out.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question2/output.csv', header='true')
+df_out.repartition(1).write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question2/output.csv', header='true')
 df_out.show(truncate=False)
 
