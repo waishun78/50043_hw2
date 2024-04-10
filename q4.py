@@ -1,6 +1,8 @@
 import sys
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, split, explode_outer, regexp_replace
+from pyspark.sql.functions import from_json
+
 from pyspark.sql.window import Window
 from pyspark.sql.types import ArrayType, IntegerType 
 # you may add more import if you need to
@@ -18,7 +20,9 @@ hdfs_nn ="172.31.29.168" #TODO: Replace with
 df = spark.read.option("header",True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/part1/input/')
 df.printSchema()
 
-df_cuisine_split = df.withColumn("Cuisine Style",split(regexp_replace("Cuisine Style", "[)]",""), ","))
+
+df_cuisine_split = df.withColumn("Cuisine Style",from_json(col("Cuisine Style")))
+# df_cuisine_split = df.withColumn("Cuisine Style",split(regexp_replace("Cuisine Style", "[)]",""), ","))
 df_cuisine_split.show()
 df_cuisine_select = df_cuisine_split.select(col("City"), col("Cuisine Style").alias("Cuisines"))
 df_cuisine_split.show()
