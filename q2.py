@@ -1,6 +1,6 @@
 import sys
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, row_number
+from pyspark.sql.functions import col, row_number, desc
 from pyspark.sql.window import Window
 # you may add more import if you need to
 
@@ -19,11 +19,11 @@ df.printSchema()
 
 df_price_not_null = df.filter(col("Price Range").isNotNull())
 
-best_window_spec = Window.partitionBy(["City", "Price Range"]).orderBy("Rating", ascending=False)
+best_window_spec = Window.partitionBy(["City", "Price Range"]).orderBy(desc("Rating"))
 df_best_restaurant = df_price_not_null.withColumn("rank", row_number().over(best_window_spec)).filter(col("rank")==1)
 df_best_restaurant.show(truncate=True)
 
-worst_window_spec = Window.partitionBy(["City", "Price Range"]).orderBy("Rating", ascending=True)
+worst_window_spec = Window.partitionBy(["City", "Price Range"]).orderBy("Rating")
 df_worst_restaurant = df_price_not_null.withColumn("rank", row_number().over(best_window_spec)).filter(col("rank")==1)
 df_worst_restaurant.show(truncate=True)
 
