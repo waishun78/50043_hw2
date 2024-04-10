@@ -1,5 +1,6 @@
 import sys
 from pyspark.sql import SparkSession
+from pyspark.context import SparkContext
 # you may add more import if you need to
 
 
@@ -8,12 +9,10 @@ hdfs_nn = sys.argv[1]
 
 spark = SparkSession.builder.appName("Assigment 2 Question 1").getOrCreate()
 # YOUR CODE GOES BELOW
-sc = SparkContext(conf=spark)
-spark = SparkSession(sc)
 
 # note that we load the text file directly with a local path instead of providing an hdfs url
 input_file_name = 'input/TA_restaurants_curated_cleaned.csv'
-hdfs_nn = '54.221.65.222' #TODO: Replace with 
+hdfs_nn = 'localhost' #TODO: Replace with 
 df = spark.read.option("header",True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/part1/input/')
 df.printSchema()
 
