@@ -1,6 +1,6 @@
 import sys
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, split
+from pyspark.sql.functions import col, split, explode
 from pyspark.sql.window import Window
 from pyspark.sql.types import ArrayType, IntegerType 
 # you may add more import if you need to
@@ -19,8 +19,8 @@ df = spark.read.option("header",True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/pa
 df.printSchema()
 
 
-df_cuisine_split = df.select(col("City"), split(col("Cuisine Style"),",").cast(ArrayType(IntegerType())).alias("Cuisine"))
-
-df_city_cuisine_count = df_cuisine_split.groupBy(["City", "Cuisine"]).count()
+df_cuisine_split = df.select(col("City"), split(col("Cuisine Style"),",").cast(ArrayType(IntegerType())).alias("Cuisines"))
+df_cuisine_explode = df_cuisine_split.select(df.City,explode(df.Cuisines).alias("Cuisine")) 
+df_city_cuisine_count = df_cuisine_explode.groupBy(["City", "Cuisine"]).count()
 
 df_city_cuisine_count.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question4/output.csv', header='true')
