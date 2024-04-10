@@ -24,7 +24,7 @@ df_best_restaurant = df_price_not_null.withColumn("rank", row_number().over(best
 df_best_restaurant.show(truncate=True)
 
 worst_window_spec = Window.partitionBy(["City", "Price Range"]).orderBy("Rating")
-df_worst_restaurant = df_price_not_null.withColumn("rank", row_number().over(best_window_spec)).filter(col("rank")==1)
+df_worst_restaurant = df_price_not_null.withColumn("rank", row_number().over(worst_window_spec)).filter(col("rank")==1)
 df_worst_restaurant.show(truncate=True)
 
 df_out = df_best_restaurant.union(df_worst_restaurant)
