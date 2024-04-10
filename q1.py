@@ -18,11 +18,11 @@ hdfs_nn ="172.31.29.168" #TODO: Replace with
 df = spark.read.option("header",True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/part1/input/')
 df.printSchema()
 
-df_has_empty_reviews = df.filter(col("Reviews")!="[[],[]]")
+df_has_empty_reviews = df.filter(col("Number of Reviews").isNotNull())
 df_ratings_int = df_has_empty_reviews.withColumn('Rating_int', df['Rating'].cast(IntegerType()))
 df_filtered = df_ratings_int.filter(df_ratings_int.Rating_int>=1).drop('Rating_int')
 # df_filtered.show(truncate=False)
 
 
-df_filtered.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question1/output.csv')
+df_filtered.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question1/output.csv', header='true')
 # df_filtered.show(truncate=False)
