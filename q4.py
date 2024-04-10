@@ -20,7 +20,7 @@ df.printSchema()
 
 
 df_cuisine_split = df.select(col("City"), split(col("Cuisine Style"),",").cast(ArrayType(IntegerType())).alias("Cuisines"))
-df_cuisine_explode = df_cuisine_split.select(df.City,explode(df.Cuisines).alias("Cuisine")) 
+df_cuisine_explode = df_cuisine_split.select(df_cuisine_split.City,explode(df_cuisine_split.Cuisines).alias("Cuisine")) 
 df_city_cuisine_count = df_cuisine_explode.groupBy(["City", "Cuisine"]).count()
 
 df_city_cuisine_count.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question4/output.csv', header='true')
