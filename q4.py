@@ -1,6 +1,6 @@
 import sys
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, explode_outer
+from pyspark.sql.functions import col, explode_outer, regexp_replace
 from pyspark.sql.functions import from_json
 from pyspark.sql.types import ArrayType, StringType
 
@@ -21,16 +21,24 @@ input_file_name = 'input/TA_restaurants_curated_cleaned.csv'
 hdfs_nn ="172.31.29.168" #TODO: Replace with 
 df = spark.read.option("header",True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/part1/input/')
 df.printSchema()
+# Preprocess the "Cuisine Style" column to make it valid JSON
+df = df.withColumn("Cuisine Style", regexp_replace(col("Cuisine Style"), "^\[ |\]$", ""))  # Trim leading/trailing brackets
+df = df.withColumn("Cuisine Style", regexp_replace(col("Cuisine Style"), "'", '"'))  # Replace single quotes with double quotes
 
-
-df_cuisine_split = df.withColumn("Cuisine Style",from_json(col("Cuisine Style"), ArrayType(StringType())))
-# df_cuisine_split = df.withColumn("Cuisine Style",split(regexp_replace("Cuisine Style", "[)]",""), ","))
+# Convert the JSON string in the DataFrame to a structured column
+df_cuisine_split = df.withColumn("Cuisine Style", from_json(col("Cuisine Style"), ArrayType(StringType())))
 df_cuisine_split.show()
+
+# Select the relevant columns, renaming as necessary
 df_cuisine_select = df_cuisine_split.select(col("City"), col("Cuisine Style").alias("Cuisines"))
-df_cuisine_split.show()
-df_cuisine_explode = df_cuisine_split.select(df_cuisine_split.City,explode_outer(df_cuisine_split.Cuisines).alias("Cuisine")) 
+df_cuisine_select.show()
+
+# Explode the cuisines into separate rows
+df_cuisine_explode = df_cuisine_select.select(col("City"), explode_outer(col("Cuisines")).alias("Cuisine"))
 df_cuisine_explode.show()
-df_city_cuisine_count = df_cuisine_explode.groupBy(["City", "Cuisine"]).count()
+
+# Group by City and Cuisine to count occurrences
+df_city_cuisine_count = df_cuisine_explode.groupBy("City", "Cuisine").count()
 df_city_cuisine_count.show()
 
 df_city_cuisine_count.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question4/output.csv', header='true')
