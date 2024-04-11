@@ -37,13 +37,13 @@ print("INDIV")
 df_character_indiv.show(truncate=True)
 df_character_indiv.printSchema()
 
-df_name = df_character.fromColumn("name", df.actor.getItem("name"))
+df_name = df_character_indiv.select(col("movie_id"), col("title"), col("actor.name").alias("name"))
 print("NAME")
 df_name.show(truncate=True)
 df_name2 = df_name
 
 cond = [df_name.movie_id == df_name2.movie_id, df_name.title == df_name2.title, df_name.name!=df_name2.name]
-df_actor_pairs = df_name.join(df_name2, cond, 'outer').select(df_name.movie_id, df_name.title, df_name.name.alias("actorA"), df_name2.name.alias("actorB")) 
+df_actor_pairs = df_name.as("a").join(df_name2.as("b"), left_on=$'a.movie_id',right_on=$'b.movie_id').select(df_name.movie_id, df_name.title, col("a.name").alias("actorA"), col("b.name").alias("actorB")) 
 print("ACTOR PAIR")
 df_actor_pairs.show(truncate=True)
 
