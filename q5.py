@@ -49,7 +49,7 @@ df_actor_pairs = df_name.alias("a") \
 print("ACTOR PAIR")
 df_actor_pairs.show(truncate=True)
 
-df_with_sorted_actors = df.withColumn("sorted_actors", sort_array(array("actorA", "actorB")))
+df_with_sorted_actors = df_actor_pairs.withColumn("sorted_actors", sort_array(array("actorA", "actorB")))
 print("SORTED ARRAY")
 df_with_sorted_actors.show(truncate=True)
 
