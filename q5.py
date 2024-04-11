@@ -43,7 +43,9 @@ df_name.show(truncate=True)
 df_name2 = df_name
 
 cond = [df_name.movie_id == df_name2.movie_id, df_name.title == df_name2.title, df_name.name!=df_name2.name]
-df_actor_pairs = df_name.as("a").join(df_name2.as("b"), left_on=$'a.movie_id',right_on=$'b.movie_id').select(df_name.movie_id, df_name.title, col("a.name").alias("actorA"), col("b.name").alias("actorB")) 
+df_actor_pairs = df_name.alias("a") \
+    .join(df_name2.alias("b"), on="movie_id") \
+    .select("movie_id", "title", col("a.name").alias("actorA"), col("b.name").alias("actorB"))
 print("ACTOR PAIR")
 df_actor_pairs.show(truncate=True)
 
