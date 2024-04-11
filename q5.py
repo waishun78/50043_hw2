@@ -1,6 +1,6 @@
 import sys 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import from_json, col, explode_outer, regexp_replace, split, trim, count, sort_array, array
+from pyspark.sql.functions import from_json, col, explode_outer, regexp_replace, split, trim, count, sort_array, array, desc
 from pyspark.sql.types import *
 from pyspark.sql.window import Window
 
@@ -45,7 +45,8 @@ df_name2 = df_name
 cond = [df_name.movie_id == df_name2.movie_id, df_name.title == df_name2.title, df_name.name!=df_name2.name]
 df_actor_pairs = df_name.alias("a") \
     .join(df_name2.alias("b"), on="movie_id") \
-    .select(col("a.movie_id").alias("movie_id"), col("a.title").alias("title"), col("a.name").alias("actorA"), col("b.name").alias("actorB"))
+    .select(col("a.movie_id").alias("movie_id"), col("a.title").alias("title"), col("a.name").alias("actorA"), col("b.name").alias("actorB")) \
+    .filter(df.actor1 != df.actor2)
 print("ACTOR PAIR")
 df_actor_pairs.show(truncate=True)
 
@@ -67,8 +68,10 @@ df_duplicates_removed.show(truncate=True)
 
 windowSpec = Window.partitionBy("actor1", "actor2")
 # actor 1<->actor2
-df_count = df_duplicates_removed.withColumn('count', count('movie_id').over(windowSpec)).orderBy("actor1", "actor2")
+df_count = df_duplicates_removed.withColumn('count', count('movie_id').over(windowSpec))
+df_count = df_count.orderBy(desc("count"), "actor1", "actor2")
 df_count.show(truncate=True)
+
 df_count_filter = df_count.filter(col("count") >= 2)
 print("COUNT")
 df_count_filter.show(truncate=True)
