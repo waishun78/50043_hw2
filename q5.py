@@ -48,7 +48,7 @@ df_actor_pairs = df_name.alias("a") \
     .select(col("a.movie_id").alias("movie_id"), col("a.title").alias("title"), col("a.name").alias("actorA"), col("b.name").alias("actorB"))
 print("ACTOR PAIR")
 df_actor_pairs.show(truncate=True)
-df_actor_pairs = df_actor_pairs.filter(col("actorA") != col("df.actorB"))
+df_actor_pairs = df_actor_pairs.filter(col("actorA") != col("actorB"))
 
 df_with_sorted_actors = df_actor_pairs.withColumn("sorted_actors", sort_array(array("actorA", "actorB")))
 print("SORTED ARRAY")
