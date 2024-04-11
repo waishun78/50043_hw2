@@ -65,7 +65,10 @@ df_duplicates_removed.show(truncate=True)
 
 windowSpec = Window.partitionBy("actor1", "actor2")
 # actor 1<->actor2
-df_count = df_duplicates_removed.withColumn('count', count(df.movie_id).over(windowSpec)).filter(col("count")>=2)
+df_count = df_duplicates_removed.withColumn('count', count('movie_id').over(windowSpec)) \
+                                .filter(col("count") >= 2) \
+                                .filter(col("actor1").isNotNull()) \
+                                .filter(col("actor2").isNotNull())
 print("COUNT")
 df_count.show(truncate=True)
 df_out = df_count.drop("count")
