@@ -60,17 +60,18 @@ print("SORTED")
 df_with_sorted_actors.show(truncate=True)
 # Finding duplicates based on these sorted columns
 df_duplicates_removed = df_with_sorted_actors.dropDuplicates(["actor1", "actor2"])
+df_duplicates_removed = df_duplicates_removed.filter(col("actor1").isNotNull()) \
+                                .filter(col("actor2").isNotNull())
 print("DUPLICATE_REMOVE")
 df_duplicates_removed.show(truncate=True)
 
 windowSpec = Window.partitionBy("actor1", "actor2")
 # actor 1<->actor2
-df_count = df_duplicates_removed.withColumn('count', count('movie_id').over(windowSpec)) \
-                                .filter(col("count") >= 2) \
-                                .filter(col("actor1").isNotNull()) \
-                                .filter(col("actor2").isNotNull())
-print("COUNT")
+df_count = df_duplicates_removed.withColumn('count', count('movie_id').over(windowSpec)).orderBy("actor1", "actor2")
 df_count.show(truncate=True)
-df_out = df_count.drop("count")
+df_count_filter = df_count.filter(col("count") >= 2)
+print("COUNT")
+df_count_filter.show(truncate=True)
+df_out = df_count_filter.select("movie_id", "title", "actor1", "actor2")
 print("OUT")
 df_out.show(truncate=True)
