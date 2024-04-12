@@ -1,0 +1,2689 @@
+City,Cuisine,count
+Amsterdam,Vietnamese,24
+Bratislava,Hungarian,3
+Brussels,International,74
+Amsterdam,Ethiopian,14
+Brussels,Pub,137
+Brussels,Halal,43
+Barcelona,Brazilian,23
+Barcelona,Fast Food,281
+Bratislava,Cuban,1
+Amsterdam,Gastropub,20
+Athens,Chinese,23
+Bratislava,Portuguese,1
+Brussels,Brew Pub,39
+Athens,International,58
+Athens,Russian,2
+Barcelona,Vietnamese,19
+Bratislava,Pizza,64
+Amsterdam,Jamaican,4
+Amsterdam,Russian,1
+Athens,Seafood,74
+Barcelona,Pub,278
+Berlin,Wine Bar,68
+Bratislava,American,26
+Athens,Wine Bar,62
+Berlin,Taiwanese,4
+Amsterdam,Central American,9
+Athens,South American,4
+Barcelona,Turkish,35
+Brussels,Grill,54
+Amsterdam,Eastern European,2
+Barcelona,Central American,35
+Bratislava,Czech,30
+Barcelona,Thai,42
+Brussels,Chinese,88
+Barcelona,European,1688
+Amsterdam,Balti,5
+Athens,Arabic,8
+Barcelona,Moroccan,18
+Bratislava,Indian,9
+Bratislava,Egyptian,1
+Amsterdam,Sushi,86
+Amsterdam,Danish,1
+Athens,Scottish,1
+Barcelona,Australian,2
+Barcelona,Minority Chinese,4
+Berlin,Guatemalan,2
+Berlin,Korean,46
+Brussels,Bar,190
+Athens,Hawaiian,1
+Berlin,African,21
+Athens,American,48
+Athens,Peruvian,2
+Barcelona,Latin,132
+Berlin,Hawaiian,2
+Berlin,Filipino,3
+Berlin,Colombian,1
+Brussels,Brazilian,8
+Athens,Ethiopian,2
+Barcelona,Mediterranean,2953
+Barcelona,Eastern European,12
+Athens,Turkish,8
+Athens,Cafe,146
+Amsterdam,Belgian,13
+Amsterdam,Taiwanese,1
+Barcelona,Spanish,2962
+Brussels,Croatian,2
+Bratislava,Scottish,2
+Berlin,Portuguese,16
+Brussels,Swiss,2
+Athens,Vegetarian Friendly,430
+Athens,Asian,49
+Amsterdam,French,204
+Athens,Korean,2
+Barcelona,Tibetan,2
+Bratislava,Street Food,12
+Brussels,Central American,4
+Amsterdam,Portuguese,10
+Amsterdam,Colombian,2
+Berlin,Street Food,43
+Berlin,Cuban,3
+Bratislava,Austrian,2
+Bratislava,Diner,8
+Brussels,Vegetarian Friendly,672
+Brussels,Cajun & Creole,2
+Berlin,Asian,514
+Amsterdam,Mexican,39
+Brussels,Nepali,1
+Amsterdam,Contemporary,52
+Athens,German,5
+Berlin,Chilean,4
+Athens,Delicatessen,11
+Athens,Street Food,20
+Berlin,Steakhouse,92
+Bratislava,Greek,4
+Brussels,Argentinean,7
+Amsterdam,Ecuadorean,1
+Athens,Kosher,1
+Athens,Colombian,1
+Berlin,Chinese,119
+Bratislava,Healthy,23
+Athens,Vegan Options,288
+Berlin,Cafe,309
+Berlin,Gastropub,26
+Brussels,British,13
+Amsterdam,Cafe,317
+Athens,Fast Food,83
+Barcelona,Jamaican,1
+Berlin,Russian,20
+Berlin,Latvian,1
+Brussels,Seafood,75
+Amsterdam,Caribbean,14
+Athens,Indian,28
+Bratislava,Dutch,1
+Amsterdam,Brew Pub,4
+Amsterdam,Brazilian,9
+Athens,Italian,109
+Berlin,Sushi,178
+Amsterdam,Pizza,182
+Brussels,Cafe,76
+Amsterdam,Asian,352
+Amsterdam,Irish,7
+Amsterdam,Tunisian,2
+Barcelona,Soups,49
+Berlin,Central European,444
+Berlin,Pizza,342
+Berlin,Grill,81
+Barcelona,Diner,40
+Barcelona,Russian,7
+Bratislava,Slovenian,5
+Bratislava,Mexican,9
+Bratislava,Armenian,1
+Athens,Gluten Free Options,125
+Athens,Brew Pub,9
+Bratislava,Bar,100
+Amsterdam,Vegetarian Friendly,1307
+Amsterdam,Barbecue,84
+Barcelona,Pizza,384
+Berlin,Jamaican,3
+Berlin,Malaysian,1
+Amsterdam,Gluten Free Options,497
+Amsterdam,Steakhouse,112
+Bratislava,European,287
+Athens,Diner,31
+Barcelona,Swiss,3
+Brussels,Italian,448
+Bratislava,Turkish,3
+Amsterdam,Israeli,7
+Amsterdam,Scandinavian,4
+Amsterdam,Romanian,1
+Berlin,Japanese,161
+Amsterdam,Tibetan,6
+Barcelona,Malaysian,2
+Berlin,Hungarian,4
+Bratislava,Grill,16
+Barcelona,Korean,21
+Barcelona,Hawaiian,6
+Brussels,Ethiopian,3
+Brussels,Tibetan,3
+Amsterdam,Spanish,81
+Berlin,International,278
+Athens,Bar,117
+Barcelona,Italian,574
+Berlin,Brazilian,5
+Brussels,Latin,12
+Berlin,Indian,151
+Bratislava,African,1
+Berlin,Turkish,143
+Berlin,Armenian,4
+Barcelona,Cafe,375
+Barcelona,Cambodian,2
+Berlin,Greek,98
+Brussels,Mexican,13
+Amsterdam,Swedish,3
+Bratislava,Steakhouse,11
+Brussels,Fusion,44
+Brussels,Delicatessen,23
+Athens,Sushi,26
+Athens,Armenian,4
+Barcelona,Xinjiang,1
+Berlin,Caribbean,10
+Bratislava,Sushi,20
+Brussels,Vegan Options,232
+Amsterdam,Latin,27
+Barcelona,Street Food,54
+Berlin,French,136
+Barcelona,Venezuelan,27
+Barcelona,Albanian,1
+Athens,Thai,7
+Berlin,Gluten Free Options,297
+Bratislava,Minority Chinese,1
+Bratislava,Romanian,1
+Amsterdam,Cuban,1
+Athens,Fusion,7
+Barcelona,Romanian,3
+Berlin,Afghani,1
+Brussels,Vietnamese,75
+Brussels,Irish,6
+Barcelona,Caribbean,26
+Barcelona,Ethiopian,2
+Berlin,Dutch,1
+Brussels,African,26
+Barcelona,Central European,13
+Brussels,South American,18
+Berlin,Austrian,55
+Berlin,Spanish,112
+Brussels,Indian,52
+Amsterdam,Italian,364
+Barcelona,Cuban,11
+Barcelona,Egyptian,2
+Brussels,Romanian,2
+Barcelona,Chilean,8
+Athens,Mediterranean,699
+Barcelona,Portuguese,7
+Brussels,Fast Food,102
+Amsterdam,Central Asian,1
+Athens,Halal,6
+Athens,Bangladeshi,3
+Barcelona,African,10
+Berlin,Native American,1
+Bratislava,Barbecue,14
+Brussels,French,483
+Amsterdam,Delicatessen,37
+Amsterdam,Malaysian,2
+Barcelona,Halal,58
+Brussels,Moroccan,43
+Brussels,Korean,6
+Athens,Steakhouse,46
+Barcelona,Nepali,7
+Bratislava,Cafe,48
+Amsterdam,Central European,50
+Berlin,Middle Eastern,174
+Berlin,New Zealand,1
+Amsterdam,American,142
+Bratislava,South American,1
+Athens,Eastern European,7
+Athens,Moroccan,1
+Bratislava,Asian,33
+Berlin,Sri Lankan,5
+Amsterdam,European,1418
+Amsterdam,Georgian,1
+Brussels,Steakhouse,31
+Brussels,Belgian,655
+Brussels,Central European,20
+Barcelona,Croatian,1
+Amsterdam,Wine Bar,21
+Amsterdam,Cajun & Creole,2
+Athens,Egyptian,1
+Barcelona,Barbecue,96
+Barcelona,Brew Pub,43
+Berlin,Vegan Options,629
+Berlin,Seafood,123
+Bratislava,Arabic,2
+Amsterdam,International,345
+Amsterdam,Korean,10
+Amsterdam,Austrian,1
+Berlin,European,1253
+Berlin,Belgian,1
+Bratislava,Vegetarian Friendly,102
+Amsterdam,Seafood,125
+Brussels,Pizza,158
+Amsterdam,Greek,28
+Athens,Argentinean,2
+Barcelona,Singaporean,3
+Athens,Spanish,11
+Barcelona,Uzbek,1
+Berlin,Central American,27
+Bratislava,Italian,77
+Amsterdam,Singaporean,2
+Athens,Czech,3
+Brussels,Eastern European,4
+Barcelona,Delicatessen,91
+Barcelona,Chinese,149
+Berlin,Arabic,19
+Bratislava,Mediterranean,35
+Brussels,Mediterranean,383
+Amsterdam,Diner,33
+Barcelona,Arabic,5
+Bratislava,Delicatessen,4
+Bratislava,Polish,1
+Bratislava,British,3
+Brussels,Tunisian,4
+Amsterdam,Arabic,9
+Barcelona,Sushi,225
+Berlin,Tibetan,7
+Bratislava,Vietnamese,11
+Brussels,European,1053
+Berlin,Mediterranean,688
+Bratislava,Seafood,18
+Amsterdam,Indian,70
+Bratislava,Fusion,7
+Amsterdam,Soups,44
+Amsterdam,Argentinean,68
+Athens,Lebanese,6
+Bratislava,Belgian,2
+Athens,Australian,1
+Barcelona,Central Asian,5
+Brussels,Healthy,54
+Berlin,Irish,9
+Berlin,Nepali,6
+Athens,Central American,8
+Amsterdam,Japanese,113
+Barcelona,Vegan Options,1006
+Berlin,Fast Food,209
+Berlin,Cambodian,3
+Bratislava,Wine Bar,25
+Brussels,Gastropub,49
+Amsterdam,Chinese,92
+Barcelona,Steakhouse,84
+Barcelona,Healthy,200
+Brussels,Contemporary,27
+Amsterdam,Thai,68
+Amsterdam,Kosher,3
+Bratislava,Korean,1
+Barcelona,Contemporary,124
+Athens,Gastropub,10
+Berlin,Brew Pub,10
+Bratislava,Pub,116
+Amsterdam,Australian,5
+Athens,Japanese,25
+Barcelona,Grill,54
+Barcelona,Argentinean,106
+Amsterdam,Dutch,805
+Bratislava,Gluten Free Options,31
+Brussels,Japanese,85
+Amsterdam,Southwestern,5
+Brussels,Thai,102
+Barcelona,Kosher,3
+Berlin,Diner,62
+Athens,Vietnamese,2
+Barcelona,Asian,366
+Barcelona,Mongolian,1
+Barcelona,International,263
+Bratislava,Croatian,1
+Brussels,Portuguese,24
+Brussels,Barbecue,28
+Brussels,Arabic,1
+Berlin,Pub,192
+Barcelona,Peruvian,58
+Barcelona,Polish,2
+Bratislava,Central European,175
+Brussels,Pakistani,15
+Barcelona,Belgian,8
+Brussels,Street Food,19
+Barcelona,Hungarian,2
+Barcelona,Scandinavian,1
+Brussels,Lebanese,45
+Bratislava,Chinese,11
+Bratislava,Latin,3
+Amsterdam,British,18
+Athens,Central European,8
+Barcelona,Taiwanese,4
+Barcelona,German,23
+Berlin,Bar,264
+Berlin,Central Asian,2
+Amsterdam,Grill,85
+Amsterdam,Street Food,23
+Athens,Pakistani,3
+Barcelona,Israeli,7
+Amsterdam,Vegan Options,524
+Barcelona,French,64
+Berlin,Thai,138
+Athens,Venezuelan,1
+Athens,Grill,41
+Athens,Swiss,1
+Berlin,Argentinean,28
+Brussels,Gluten Free Options,123
+Amsterdam,Healthy,81
+Athens,Contemporary,23
+Barcelona,Gluten Free Options,901
+Berlin,Cajun & Creole,3
+Barcelona,Armenian,2
+Berlin,Croatian,18
+Brussels,Spanish,45
+Amsterdam,Indonesian,74
+Barcelona,Indian,71
+Barcelona,Lebanese,47
+Amsterdam,Afghani,3
+Athens,Brazilian,2
+Berlin,Norwegian,1
+Brussels,Chilean,1
+Amsterdam,Norwegian,1
+Berlin,Southwestern,2
+Amsterdam,Peruvian,4
+Athens,Irish,1
+Bratislava,German,1
+Barcelona,Fusion,224
+Barcelona,Mexican,124
+Bratislava,International,58
+Berlin,Australian,8
+Berlin,Ethiopian,6
+Berlin,Salvadoran,1
+Barcelona,Austrian,2
+Brussels,Sushi,44
+Barcelona,Bar,537
+Brussels,Greek,64
+Berlin,Contemporary,57
+Bratislava,Thai,12
+Bratislava,Vegan Options,45
+Brussels,Persian,6
+Berlin,American,168
+Berlin,Delicatessen,52
+Berlin,Ukrainian,4
+Berlin,Soups,67
+Berlin,Halal,68
+Berlin,Moroccan,9
+Amsterdam,Mediterranean,337
+Amsterdam,Persian,6
+Barcelona,Japanese,338
+Barcelona,Indonesian,6
+Berlin,Lebanese,51
+Bratislava,Caribbean,1
+Berlin,South American,55
+Bratislava,Contemporary,6
+Amsterdam,Nepali,10
+Athens,Pub,85
+Brussels,Middle Eastern,81
+Brussels,Turkish,28
+Barcelona,Persian,2
+Berlin,Vegetarian Friendly,1723
+Berlin,Barbecue,89
+Brussels,American,68
+Amsterdam,German,8
+Berlin,Egyptian,7
+Athens,French,20
+Athens,Azerbaijani,1
+Barcelona,Georgian,1
+Berlin,British,6
+Amsterdam,New Zealand,4
+Amsterdam,Egyptian,4
+Barcelona,South American,174
+Bratislava,Indonesian,2
+Bratislava,Japanese,23
+Amsterdam,Bar,497
+Athens,Soups,8
+Barcelona,Middle Eastern,80
+Berlin,Italian,803
+Berlin,Pakistani,10
+Brussels,Asian,238
+Athens,African,3
+Barcelona,Greek,21
+Barcelona,Ecuadorean,2
+Berlin,Latin,41
+Berlin,Peruvian,12
+Bratislava,Middle Eastern,4
+Brussels,Taiwanese,2
+Amsterdam,Fast Food,117
+Amsterdam,African,24
+Athens,European,192
+Athens,Latin,9
+Barcelona,Pakistani,15
+Berlin,Scandinavian,4
+Athens,Barbecue,51
+Berlin,Caucasian,1
+Athens,Mexican,15
+Berlin,Israeli,22
+Brussels,Soups,64
+Athens,British,6
+Barcelona,Wine Bar,109
+Bratislava,Argentinean,1
+Barcelona,Cajun & Creole,1
+Amsterdam,Minority Chinese,2
+Athens,Middle Eastern,25
+Barcelona,Vegetarian Friendly,1969
+Barcelona,American,176
+Barcelona,British,11
+Bratislava,Israeli,1
+Amsterdam,Halal,52
+Athens,Greek,903
+Barcelona,Yunnan,2
+Berlin,Georgian,3
+Brussels,Diner,12
+Athens,Healthy,25
+Athens,Romanian,1
+Barcelona,Scottish,1
+Berlin,Kosher,10
+Berlin,Mongolian,3
+Berlin,Mexican,88
+Amsterdam,Swiss,6
+Barcelona,Irish,11
+Amsterdam,South American,54
+Barcelona,Filipino,6
+Berlin,Fusion,71
+Berlin,Persian,17
+Bratislava,French,12
+Athens,Pizza,52
+Barcelona,Gastropub,72
+Amsterdam,Moroccan,23
+Barcelona,Swedish,1
+Berlin,Swiss,14
+Bratislava,Eastern European,73
+Amsterdam,Pakistani,8
+Barcelona,Dutch,2
+Bratislava,Fast Food,28
+Berlin,Indonesian,6
+Amsterdam,Pub,292
+Amsterdam,Fusion,50
+Berlin,Healthy,67
+Berlin,Swedish,2
+Bratislava,Gastropub,10
+Amsterdam,Lebanese,16
+Barcelona,Colombian,20
+Barcelona,Southwestern,1
+Amsterdam,Hawaiian,4
+Berlin,Eastern European,27
+Bratislava,Soups,23
+Amsterdam,Turkish,68
+Bratislava,Brew Pub,10
+Bratislava,Spanish,4
+Bratislava,Russian,1
+Brussels,Wine Bar,44
+Berlin,German,805
+Amsterdam,Middle Eastern,78
+Berlin,Vietnamese,260
+Athens,Caribbean,2
+Barcelona,Seafood,281
+Berlin,Singaporean,7
+Berlin,Polish,9
+Brussels,Dutch,1
+Helsinki,Georgian,3
+Copenhagen,Vegetarian Friendly,480
+Dublin,Wine Bar,38
+Geneva,Bar,57
+Geneva,Eastern European,2
+Helsinki,Vietnamese,20
+Copenhagen,Irish,5
+Copenhagen,Moroccan,5
+Geneva,Wine Bar,33
+Lisbon,Italian,177
+Dublin,Afghani,4
+Geneva,Japanese,45
+Helsinki,Czech,1
+Helsinki,Gastropub,4
+Lisbon,Mexican,13
+Budapest,European,1188
+Krakow,Japanese,32
+Lisbon,Albanian,1
+Copenhagen,Greek,8
+Copenhagen,Belgian,2
+Dublin,Spanish,22
+Geneva,Contemporary,21
+Hamburg,Cafe,81
+Hamburg,Turkish,30
+Lisbon,Vegan Options,336
+Budapest,Pizza,158
+Geneva,Irish,2
+Copenhagen,Lebanese,11
+Copenhagen,Jamaican,1
+Dublin,Argentinean,2
+Geneva,Swedish,1
+Hamburg,Greek,72
+Krakow,Central European,242
+Lisbon,Fast Food,68
+Lisbon,Tibetan,5
+Dublin,Mexican,40
+Helsinki,American,47
+Brussels,Scandinavian,2
+Geneva,Malaysian,1
+Krakow,Israeli,11
+Copenhagen,Scandinavian,277
+Geneva,Persian,5
+Hamburg,Italian,269
+Krakow,Kosher,12
+Dublin,Barbecue,13
+Edinburgh,American,73
+Hamburg,International,109
+Budapest,International,312
+Copenhagen,New Zealand,1
+Helsinki,Central American,3
+Lisbon,American,49
+Edinburgh,Vegetarian Friendly,877
+Budapest,Irish,4
+Copenhagen,Persian,1
+Krakow,Bar,115
+Edinburgh,British,654
+Edinburgh,Fast Food,176
+Geneva,Seafood,24
+Geneva,Mexican,11
+Geneva,Ethiopian,7
+Hamburg,Contemporary,23
+Copenhagen,Seafood,46
+Geneva,Gluten Free Options,76
+Geneva,Thai,45
+Budapest,Central European,543
+Copenhagen,Central European,8
+Copenhagen,Thai,65
+Hamburg,Fast Food,53
+Krakow,Brew Pub,12
+Edinburgh,Pub,261
+Lisbon,Arabic,5
+Copenhagen,Australian,3
+Dublin,Vegetarian Friendly,704
+Dublin,Healthy,49
+Dublin,Pizza,144
+Edinburgh,Street Food,13
+Geneva,Egyptian,1
+Hamburg,Mongolian,6
+Krakow,Georgian,4
+Lisbon,Delicatessen,15
+Budapest,Egyptian,1
+Budapest,Ethiopian,1
+Copenhagen,Vietnamese,25
+Hamburg,Peruvian,5
+Hamburg,Danish,1
+Helsinki,Seafood,11
+Helsinki,Sri Lankan,1
+Lisbon,Nepali,49
+Dublin,Southwestern,1
+Geneva,Scandinavian,2
+Lisbon,Polish,1
+Budapest,German,8
+Budapest,Gluten Free Options,286
+Budapest,Cajun & Creole,1
+Copenhagen,Filipino,1
+Geneva,American,34
+Dublin,Bar,354
+Geneva,Sushi,44
+Geneva,African,11
+Helsinki,Southwestern,5
+Helsinki,Kosher,1
+Krakow,Halal,7
+Budapest,Cafe,155
+Hamburg,Gluten Free Options,70
+Krakow,Gastropub,7
+Krakow,Spanish,5
+Budapest,Mexican,38
+Edinburgh,Turkish,33
+Hamburg,Swedish,2
+Budapest,Norwegian,1
+Hamburg,Cuban,2
+Krakow,Soups,33
+Copenhagen,Venezuelan,1
+Dublin,American,85
+Hamburg,Scandinavian,4
+Budapest,Turkish,30
+Edinburgh,Brazilian,2
+Geneva,Spanish,35
+Helsinki,Soups,20
+Budapest,Pub,186
+Copenhagen,Fusion,17
+Copenhagen,Armenian,1
+Hamburg,Jamaican,1
+Helsinki,South American,7
+Krakow,Azerbaijani,1
+Lisbon,Mediterranean,922
+Lisbon,Pizza,116
+Lisbon,Cuban,3
+Budapest,Nepali,10
+Edinburgh,Scottish,464
+Krakow,Diner,13
+Lisbon,Puerto Rican,2
+Dublin,Israeli,1
+Geneva,Latin,14
+Geneva,Turkish,12
+Helsinki,Fast Food,43
+Budapest,Fusion,33
+Copenhagen,Caucasian,1
+Helsinki,Fusion,25
+Budapest,Argentinean,2
+Edinburgh,Mediterranean,92
+Geneva,Steakhouse,30
+Budapest,African,1
+Copenhagen,Central American,5
+Dublin,Middle Eastern,32
+Budapest,Diner,14
+Edinburgh,Middle Eastern,36
+Helsinki,Scandinavian,204
+Helsinki,Central European,12
+Helsinki,International,44
+Helsinki,Peruvian,1
+Krakow,Arabic,2
+Krakow,Chinese,17
+Krakow,Pub,102
+Krakow,Dutch,1
+Brussels,Russian,1
+Dublin,Italian,175
+Geneva,International,56
+Budapest,Croatian,1
+Copenhagen,International,67
+Edinburgh,Malaysian,3
+Geneva,Healthy,16
+Hamburg,Vegan Options,128
+Krakow,South American,4
+Copenhagen,Ethiopian,2
+Edinburgh,Mexican,25
+Krakow,Healthy,35
+Lisbon,Caribbean,5
+Edinburgh,Jamaican,2
+Hamburg,Arabic,2
+Geneva,Argentinean,3
+Geneva,Vietnamese,7
+Helsinki,Australian,4
+Copenhagen,Asian,185
+Lisbon,Taiwanese,1
+Edinburgh,European,311
+Edinburgh,Sushi,30
+Copenhagen,Latin,18
+Copenhagen,Wine Bar,41
+Copenhagen,Colombian,1
+Copenhagen,Arabic,5
+Helsinki,Diner,9
+Lisbon,Austrian,2
+Geneva,Peruvian,10
+Krakow,Belgian,3
+Edinburgh,International,40
+Edinburgh,Latin,5
+Geneva,Colombian,1
+Hamburg,Latin,13
+Hamburg,Healthy,16
+Lisbon,Turkish,11
+Geneva,Halal,25
+Hamburg,Pakistani,5
+Copenhagen,Mediterranean,79
+Dublin,Mediterranean,87
+Hamburg,South American,18
+Hamburg,Thai,36
+Krakow,Czech,3
+Budapest,Steakhouse,20
+Hamburg,Lebanese,12
+Hamburg,Caribbean,3
+Geneva,Gastropub,29
+Lisbon,German,8
+Budapest,Mongolian,2
+Copenhagen,Chinese,47
+Dublin,Grill,18
+Lisbon,Diner,9
+Dublin,Persian,1
+Edinburgh,Delicatessen,18
+Lisbon,Chilean,1
+Copenhagen,Indonesian,2
+Dublin,Gluten Free Options,545
+Geneva,Diner,8
+Geneva,Cuban,1
+Geneva,Kosher,1
+Helsinki,Italian,81
+Lisbon,Pub,99
+Lisbon,Swiss,2
+Budapest,Gastropub,26
+Dublin,Street Food,10
+Hamburg,Mediterranean,239
+Hamburg,Japanese,53
+Hamburg,Canadian,1
+Budapest,Greek,23
+Copenhagen,Middle Eastern,35
+Copenhagen,Pub,83
+Dublin,Japanese,45
+Budapest,Street Food,59
+Budapest,Romanian,2
+Dublin,Indonesian,1
+Dublin,Polish,1
+Helsinki,Pub,83
+Dublin,Turkish,7
+Edinburgh,Irish,1
+Krakow,Italian,183
+Krakow,Korean,6
+Lisbon,Portuguese,1845
+Dublin,South American,7
+Krakow,German,2
+Brussels,Cuban,2
+Edinburgh,South American,7
+Edinburgh,Persian,2
+Geneva,Middle Eastern,34
+Hamburg,Brew Pub,5
+Helsinki,Russian,5
+Krakow,Cuban,1
+Budapest,Seafood,36
+Copenhagen,Italian,207
+Hamburg,Diner,37
+Helsinki,Israeli,2
+Copenhagen,Contemporary,34
+Dublin,Arabic,1
+Hamburg,Colombian,2
+Helsinki,Sushi,60
+Helsinki,Brew Pub,5
+Helsinki,Chinese,53
+Helsinki,Spanish,21
+Krakow,Fusion,23
+Krakow,Argentinean,3
+Krakow,Polish,454
+Budapest,French,36
+Copenhagen,Malaysian,2
+Dublin,Thai,84
+Geneva,South American,17
+Helsinki,Halal,7
+Edinburgh,Eastern European,15
+Geneva,Albanian,1
+Hamburg,Indonesian,2
+Lisbon,Grill,58
+Lisbon,Persian,2
+Budapest,Contemporary,22
+Edinburgh,Indian,121
+Edinburgh,Tibetan,1
+Hamburg,Kosher,2
+Hamburg,British,4
+Krakow,Ukrainian,5
+Dublin,Contemporary,49
+Geneva,Mediterranean,241
+Helsinki,Barbecue,16
+Krakow,Mexican,8
+Krakow,British,3
+Budapest,Brew Pub,8
+Copenhagen,Argentinean,4
+Dublin,Chinese,84
+Dublin,Hungarian,1
+Edinburgh,Ukrainian,1
+Helsinki,Eastern European,6
+Lisbon,Asian,154
+Budapest,Vegetarian Friendly,705
+Budapest,Persian,3
+Lisbon,Brew Pub,14
+Lisbon,Indonesian,1
+Brussels,Egyptian,1
+Budapest,Swiss,1
+Copenhagen,Swedish,3
+Dublin,Lebanese,13
+Dublin,Fast Food,136
+Helsinki,Korean,9
+Edinburgh,Japanese,34
+Edinburgh,Polish,2
+Hamburg,Vietnamese,40
+Hamburg,Pub,63
+Dublin,Albanian,1
+Edinburgh,Contemporary,30
+Edinburgh,Austrian,1
+Helsinki,Healthy,11
+Copenhagen,Bar,118
+Dublin,Sushi,44
+Krakow,American,61
+Lisbon,Pakistani,4
+Copenhagen,Diner,24
+Geneva,Lebanese,30
+Geneva,Brazilian,6
+Helsinki,Middle Eastern,31
+Dublin,Fusion,31
+Hamburg,Hungarian,1
+Krakow,Steakhouse,15
+Copenhagen,Native American,1
+Helsinki,Japanese,61
+Krakow,Vietnamese,11
+Budapest,Wine Bar,44
+Copenhagen,Israeli,3
+Edinburgh,Wine Bar,27
+Hamburg,German,315
+Helsinki,Irish,1
+Krakow,Nepali,1
+Edinburgh,Soups,64
+Edinburgh,Central European,3
+Edinburgh,Singaporean,1
+Hamburg,Bar,91
+Hamburg,Irish,3
+Lisbon,Japanese,108
+Copenhagen,Gluten Free Options,185
+Copenhagen,Steakhouse,34
+Copenhagen,Mongolian,1
+Edinburgh,Chinese,83
+Helsinki,Thai,36
+Lisbon,Peruvian,10
+Edinburgh,Pizza,135
+Edinburgh,Belgian,1
+Hamburg,Persian,7
+Budapest,Soups,67
+Dublin,Czech,1
+Hamburg,Central European,167
+Lisbon,Fusion,53
+Brussels,Bangladeshi,2
+Budapest,Healthy,65
+Dublin,Ethiopian,1
+Helsinki,Arabic,1
+Budapest,Asian,138
+Budapest,Chinese,40
+Copenhagen,Soups,6
+Copenhagen,South American,8
+Hamburg,Moroccan,3
+Helsinki,Lebanese,6
+Helsinki,British,2
+Lisbon,Bangladeshi,3
+Dublin,Nepali,9
+Dublin,Central American,5
+Hamburg,Indian,45
+Krakow,Barbecue,10
+Budapest,Delicatessen,15
+Copenhagen,Peruvian,2
+Dublin,Swedish,1
+Dublin,European,651
+Dublin,Indian,73
+Lisbon,African,30
+Budapest,Moroccan,3
+Copenhagen,Taiwanese,2
+Edinburgh,Steakhouse,25
+Lisbon,Brazilian,57
+Dublin,Seafood,47
+Hamburg,Sushi,78
+Budapest,Cuban,3
+Geneva,Cafe,44
+Krakow,Cafe,71
+Krakow,Greek,4
+Lisbon,Steakhouse,51
+Budapest,Central American,9
+Edinburgh,Gastropub,32
+Lisbon,Central Asian,2
+Lisbon,Venezuelan,1
+Dublin,Tibetan,1
+Hamburg,Middle Eastern,49
+Lisbon,Bar,161
+Lisbon,French,25
+Budapest,Scandinavian,1
+Helsinki,Wine Bar,9
+Lisbon,Indian,109
+Brussels,Filipino,1
+Copenhagen,Norwegian,4
+Dublin,Gastropub,59
+Dublin,Balti,10
+Budapest,Bar,240
+Copenhagen,Russian,1
+Dublin,Scandinavian,1
+Geneva,Central European,14
+Geneva,Korean,7
+Lisbon,Wine Bar,91
+Dublin,Vietnamese,10
+Krakow,Indian,15
+Lisbon,Irish,2
+Budapest,Middle Eastern,42
+Dublin,Irish,614
+Lisbon,Vegetarian Friendly,731
+Lisbon,Spanish,68
+Budapest,Barbecue,28
+Budapest,Japanese,45
+Copenhagen,African,2
+Edinburgh,Diner,15
+Helsinki,Hawaiian,2
+Krakow,Contemporary,13
+Dublin,Asian,219
+Hamburg,Steakhouse,55
+Brussels,Caribbean,3
+Budapest,Native American,1
+Edinburgh,French,39
+Edinburgh,Greek,7
+Geneva,Barbecue,17
+Krakow,French,23
+Edinburgh,Southwestern,1
+Edinburgh,Venezuelan,1
+Krakow,Vegan Options,160
+Dublin,Pub,331
+Hamburg,Fusion,18
+Dublin,Canadian,1
+Dublin,Russian,1
+Edinburgh,Central American,13
+Copenhagen,Azerbaijani,1
+Helsinki,Afghani,1
+Budapest,Caribbean,4
+Budapest,Pakistani,2
+Edinburgh,Vietnamese,4
+Hamburg,Gastropub,9
+Lisbon,Central American,5
+Budapest,Jamaican,1
+Dublin,Diner,13
+Helsinki,Delicatessen,6
+Krakow,Lebanese,4
+Copenhagen,Fast Food,109
+Copenhagen,British,5
+Dublin,Hawaiian,1
+Hamburg,European,430
+Lisbon,Argentinean,9
+Budapest,Bangladeshi,1
+Geneva,Grill,10
+Helsinki,Nepali,32
+Dublin,Portuguese,5
+Dublin,Ecuadorean,1
+Edinburgh,Swedish,2
+Geneva,European,520
+Krakow,Balti,1
+Lisbon,Healthy,78
+Budapest,Georgian,1
+Copenhagen,Hungarian,1
+Dublin,Vegan Options,336
+Edinburgh,Moroccan,2
+Hamburg,Ethiopian,1
+Helsinki,Pizza,95
+Krakow,Street Food,3
+Brussels,Southwestern,1
+Budapest,Portuguese,1
+Copenhagen,Japanese,90
+Copenhagen,Sushi,77
+Edinburgh,Pakistani,11
+Geneva,French,344
+Hamburg,Brazilian,3
+Hamburg,Central American,8
+Hamburg,Minority Chinese,1
+Helsinki,Mexican,20
+Budapest,Spanish,25
+Copenhagen,Street Food,5
+Dublin,Brazilian,5
+Krakow,Asian,52
+Lisbon,Sushi,101
+Lisbon,Tunisian,1
+Copenhagen,Vegan Options,187
+Hamburg,Asian,119
+Geneva,Singaporean,1
+Copenhagen,Brazilian,2
+Dublin,Soups,40
+Hamburg,Grill,29
+Hamburg,Sri Lankan,1
+Krakow,Seafood,21
+Lisbon,Romanian,2
+Brussels,Native American,2
+Dublin,Moroccan,3
+Geneva,Moroccan,10
+Dublin,Steakhouse,42
+Geneva,Southwestern,1
+Dublin,Delicatessen,21
+Krakow,Swedish,1
+Lisbon,British,3
+Edinburgh,Lebanese,7
+Helsinki,Vegan Options,144
+Helsinki,Singaporean,1
+Brussels,Polish,1
+Edinburgh,Asian,219
+Helsinki,Street Food,10
+Lisbon,Middle Eastern,13
+Brussels,Balti,1
+Budapest,Kosher,9
+Budapest,Vietnamese,29
+Copenhagen,Pizza,103
+Copenhagen,German,3
+Edinburgh,Halal,61
+Helsinki,Mediterranean,66
+Budapest,Latvian,1
+Copenhagen,Turkish,25
+Hamburg,Korean,6
+Helsinki,Swedish,1
+Helsinki,Brazilian,2
+Krakow,Fast Food,59
+Dublin,Brew Pub,6
+Hamburg,Southwestern,1
+Helsinki,Vegetarian Friendly,328
+Copenhagen,Cafe,187
+Lisbon,Halal,17
+Lisbon,Greek,3
+Copenhagen,Croatian,2
+Edinburgh,Seafood,43
+Brussels,Israeli,1
+Hamburg,African,4
+Helsinki,Ethiopian,2
+Helsinki,Caucasian,2
+Copenhagen,Barbecue,21
+Geneva,Chinese,46
+Helsinki,Turkish,18
+Krakow,New Zealand,1
+Krakow,Turkish,9
+Lisbon,Ukrainian,1
+Budapest,Sushi,46
+Dublin,Singaporean,1
+Edinburgh,Swiss,1
+Krakow,Eastern European,159
+Krakow,Brazilian,2
+Lisbon,Contemporary,93
+Brussels,Armenian,1
+Budapest,Vegan Options,298
+Budapest,Latin,7
+Budapest,Korean,6
+Dublin,Greek,4
+Edinburgh,Taiwanese,1
+Lisbon,Central European,8
+Dublin,Eastern European,6
+Geneva,Bangladeshi,1
+Lisbon,European,1870
+Copenhagen,Cajun & Creole,2
+Copenhagen,Hawaiian,2
+Helsinki,Moroccan,3
+Copenhagen,Mexican,25
+Dublin,African,3
+Hamburg,Street Food,7
+Helsinki,European,366
+Helsinki,Greek,7
+Helsinki,African,3
+Krakow,Latin,1
+Budapest,Mediterranean,129
+Budapest,Austrian,5
+Dublin,Cafe,245
+Dublin,Latin,5
+Hamburg,Venezuelan,1
+Edinburgh,Barbecue,11
+Geneva,Brew Pub,6
+Krakow,Russian,2
+Lisbon,Chinese,51
+Lisbon,Latin,17
+Budapest,Israeli,21
+Copenhagen,European,719
+Copenhagen,American,102
+Budapest,Russian,10
+Budapest,British,9
+Copenhagen,Danish,471
+Copenhagen,Caribbean,1
+Edinburgh,Gluten Free Options,608
+Edinburgh,Cafe,288
+Hamburg,Afghani,3
+Brussels,Hungarian,1
+Copenhagen,Pakistani,11
+Dublin,Halal,27
+Dublin,Cajun & Creole,1
+Geneva,Italian,220
+Geneva,Afghani,1
+Hamburg,Wine Bar,27
+Krakow,Hungarian,3
+Edinburgh,Portuguese,12
+Hamburg,Pizza,87
+Hamburg,Albanian,1
+Helsinki,Persian,1
+Budapest,Thai,47
+Budapest,South American,9
+Copenhagen,Gastropub,9
+Geneva,Vegan Options,106
+Geneva,Delicatessen,7
+Hamburg,French,37
+Helsinki,Bar,83
+Lisbon,Belgian,4
+Copenhagen,Grill,27
+Geneva,Street Food,6
+Hamburg,Soups,21
+Helsinki,Cafe,76
+Budapest,Arabic,3
+Geneva,Greek,1
+Hamburg,Nepali,2
+Brussels,Afghani,1
+Budapest,Afghani,1
+Copenhagen,Dutch,1
+Edinburgh,Grill,28
+Geneva,Soups,15
+Hamburg,Croatian,4
+Helsinki,Contemporary,14
+Lisbon,Gluten Free Options,246
+Budapest,Czech,4
+Budapest,Grill,49
+Dublin,Mongolian,1
+Edinburgh,Italian,148
+Geneva,Portuguese,19
+Brussels,German,1
+Dublin,British,54
+Geneva,Fast Food,37
+Krakow,Wine Bar,15
+Budapest,Italian,258
+Helsinki,Egyptian,1
+Krakow,Delicatessen,2
+Budapest,Halal,11
+Dublin,Australian,5
+Geneva,Pizza,106
+Hamburg,Mexican,23
+Lisbon,Israeli,1
+Lisbon,Hawaiian,1
+Copenhagen,Delicatessen,14
+Krakow,International,60
+Budapest,Belgian,4
+Copenhagen,Korean,8
+Helsinki,German,3
+Helsinki,Grill,10
+Krakow,Mediterranean,99
+Hamburg,Vegetarian Friendly,513
+Hamburg,Barbecue,33
+Hamburg,Spanish,50
+Lisbon,Street Food,16
+Copenhagen,French,88
+Edinburgh,Healthy,30
+Hamburg,Halal,15
+Hamburg,Israeli,2
+Hamburg,Russian,2
+Lisbon,Vietnamese,6
+Edinburgh,Bar,309
+Brussels,Hawaiian,1
+Lisbon,Barbecue,57
+Copenhagen,Tibetan,1
+Copenhagen,Eastern European,3
+Dublin,Central European,8
+Dublin,Malaysian,4
+Edinburgh,Australian,1
+Hamburg,Eastern European,2
+Lisbon,International,122
+Budapest,Lebanese,8
+Budapest,Peruvian,2
+Edinburgh,German,3
+Budapest,American,138
+Dublin,Croatian,1
+Dublin,Pakistani,13
+Hamburg,Seafood,137
+Hamburg,Chinese,62
+Helsinki,Indian,18
+Krakow,Pizza,95
+Lisbon,Soups,72
+Edinburgh,Argentinean,4
+Helsinki,French,22
+Lisbon,South American,54
+Geneva,Pub,43
+Geneva,British,3
+Hamburg,Austrian,11
+Hamburg,Delicatessen,20
+Lisbon,Malaysian,2
+Geneva,Venezuelan,2
+Hamburg,Argentinean,5
+Hamburg,Polish,1
+Krakow,Thai,12
+Lisbon,Korean,2
+Edinburgh,Nepali,9
+Edinburgh,Brew Pub,4
+Helsinki,Belgian,2
+Krakow,Grill,20
+Lisbon,Cafe,119
+Lisbon,Filipino,3
+Copenhagen,Nepali,3
+Hamburg,American,80
+Lisbon,Eastern European,3
+Copenhagen,Halal,16
+Geneva,Croatian,1
+Hamburg,Portuguese,37
+Budapest,Hungarian,948
+Edinburgh,Vegan Options,460
+Geneva,Swiss,140
+Geneva,Fusion,15
+Geneva,Russian,1
+Lisbon,Russian,2
+Copenhagen,Indian,43
+Copenhagen,Brew Pub,7
+Geneva,Vegetarian Friendly,397
+Geneva,Indian,24
+Geneva,Taiwanese,1
+Helsinki,Portuguese,1
+Edinburgh,Spanish,17
+Hamburg,Armenian,1
+Lisbon,Thai,12
+Budapest,Colombian,1
+Copenhagen,Healthy,30
+Copenhagen,Spanish,40
+Geneva,Belgian,1
+Krakow,Vegetarian Friendly,379
+Krakow,Sushi,28
+Dublin,French,44
+Edinburgh,Balti,34
+Geneva,Asian,135
+Hamburg,Tibetan,3
+Krakow,Middle Eastern,13
+Dublin,Korean,9
+Helsinki,Gluten Free Options,181
+Helsinki,Cajun & Creole,1
+Krakow,Polynesian,2
+Lisbon,Seafood,210
+Budapest,Indian,30
+Dublin,International,79
+Edinburgh,Caribbean,6
+Hamburg,Cajun & Creole,2
+Brussels,Indonesian,2
+Dublin,Egyptian,1
+Edinburgh,Thai,36
+Edinburgh,African,7
+Edinburgh,Korean,7
+Brussels,Peruvian,5
+Brussels,Cambodian,2
+Krakow,Gluten Free Options,117
+Lisbon,Moroccan,2
+Budapest,Central Asian,1
+Edinburgh,Bangladeshi,24
+Edinburgh,Fusion,8
+Geneva,Tunisian,1
+Edinburgh,Scandinavian,4
+Hamburg,Chilean,1
+Budapest,Eastern European,321
+Geneva,Central American,7
+Hamburg,Swiss,1
+Budapest,Brazilian,1
+Budapest,Scottish,2
+Helsinki,Asian,143
+Helsinki,Malaysian,2
+Krakow,European,576
+Krakow,Central American,4
+Helsinki,Steakhouse,14
+Lisbon,Lebanese,4
+Budapest,Fast Food,167
+Budapest,Danish,1
+Edinburgh,Hungarian,1
+Helsinki,Latin,10
+Geneva,Pakistani,2
+Krakow,Canadian,1
+Lisbon,Gastropub,11
+London,Kosher,26
+Lyon,Mediterranean,80
+London,Scandinavian,18
+Ljubljana,Contemporary,8
+London,Austrian,9
+Lyon,Healthy,29
+London,Dutch,4
+Ljubljana,South American,2
+Luxembourg,Moroccan,2
+Luxembourg,Grill,6
+Luxembourg,Brazilian,3
+Ljubljana,Pizza,56
+Lyon,Spanish,38
+Ljubljana,Sushi,6
+Luxembourg,Peruvian,2
+Lyon,Russian,6
+Luxembourg,Diner,1
+Luxembourg,African,1
+Ljubljana,Thai,8
+London,Belgian,15
+London,Delicatessen,112
+London,Ecuadorean,2
+Lyon,Persian,2
+London,Contemporary,192
+London,Spanish,300
+London,Brazilian,57
+London,Korean,81
+London,Mediterranean,1583
+Luxembourg,Halal,1
+Lyon,Peruvian,3
+Ljubljana,Bangladeshi,1
+London,Southwestern,14
+Ljubljana,Mediterranean,81
+Luxembourg,Japanese,34
+Lyon,Brazilian,5
+London,Ukrainian,1
+Ljubljana,Japanese,8
+London,Brew Pub,52
+Luxembourg,German,4
+London,Central European,52
+Lyon,Mexican,17
+Ljubljana,Gluten Free Options,61
+Ljubljana,Soups,15
+Luxembourg,Caribbean,1
+London,Georgian,2
+London,International,419
+London,Pub,1806
+London,Albanian,3
+Lyon,Japanese,85
+Ljubljana,Mexican,10
+Ljubljana,Vietnamese,1
+Ljubljana,Delicatessen,2
+London,Persian,81
+London,Moroccan,51
+Ljubljana,Lebanese,1
+Luxembourg,Nepali,9
+London,Cafe,1506
+Luxembourg,Korean,3
+Luxembourg,Soups,9
+Ljubljana,Vegetarian Friendly,123
+Ljubljana,British,2
+London,Pakistani,80
+London,Cambodian,1
+London,Turkish,440
+London,Armenian,6
+Lyon,Turkish,12
+Luxembourg,Asian,77
+London,Taiwanese,16
+Ljubljana,Steakhouse,10
+Luxembourg,Chinese,34
+Lyon,Fusion,21
+Ljubljana,American,16
+Luxembourg,Tibetan,4
+Luxembourg,Portuguese,16
+Lyon,Seafood,30
+Lyon,Korean,6
+Luxembourg,Healthy,6
+Lyon,International,28
+Ljubljana,Latin,3
+Luxembourg,Cuban,1
+London,African,66
+London,Israeli,32
+London,Central Asian,4
+Luxembourg,Fast Food,17
+London,Croatian,1
+London,Ethiopian,26
+Luxembourg,Indian,18
+Ljubljana,Grill,13
+London,Romanian,5
+Lyon,Scandinavian,1
+London,Danish,4
+London,Polish,30
+London,Indonesian,21
+Luxembourg,South American,6
+Lyon,Cafe,59
+London,American,685
+London,South American,140
+Lyon,African,11
+Ljubljana,Brazilian,2
+London,Seafood,410
+London,Cuban,11
+Luxembourg,Swedish,2
+Luxembourg,Mexican,9
+Ljubljana,Croatian,3
+Ljubljana,African,1
+Lyon,Street Food,24
+London,Mexican,215
+London,Latvian,1
+Luxembourg,Spanish,13
+Luxembourg,Eastern European,1
+London,Swedish,13
+Luxembourg,Pub,38
+Luxembourg,Pizza,51
+Luxembourg,Wine Bar,10
+Ljubljana,Middle Eastern,6
+Ljubljana,Greek,3
+London,Argentinean,57
+Lyon,Middle Eastern,31
+Lyon,Asian,95
+Lyon,Lebanese,14
+Lyon,Indian,40
+Ljubljana,Barbecue,30
+Luxembourg,Polish,1
+Lyon,Contemporary,25
+Ljubljana,Wine Bar,14
+London,Afghani,16
+London,Chinese,659
+London,Venezuelan,7
+Luxembourg,Middle Eastern,7
+Ljubljana,Healthy,9
+London,Gastropub,313
+London,Barbecue,249
+Lyon,American,67
+London,Bangladeshi,155
+London,Central American,59
+London,Swiss,2
+Lyon,Eastern European,8
+London,Gluten Free Options,3271
+London,Vietnamese,176
+London,Caribbean,126
+Lyon,Thai,25
+London,Steakhouse,246
+Luxembourg,Italian,110
+Luxembourg,Sushi,34
+Lyon,Steakhouse,29
+Lyon,Portuguese,3
+Lyon,Irish,4
+Lyon,Chinese,44
+London,Italian,1722
+London,Healthy,266
+Luxembourg,Delicatessen,6
+Ljubljana,Chinese,14
+Ljubljana,French,2
+London,Colombian,18
+Ljubljana,Persian,1
+Ljubljana,Russian,1
+London,Czech,1
+Lyon,Delicatessen,26
+Ljubljana,Italian,52
+Ljubljana,Nepali,1
+London,Indian,1055
+London,Portuguese,123
+Luxembourg,Vegan Options,61
+Lyon,Moroccan,14
+London,Bar,2144
+London,Pizza,1055
+London,Diner,133
+Luxembourg,Gastropub,8
+Ljubljana,Albanian,1
+London,Greek,142
+Luxembourg,French,117
+Luxembourg,Bangladeshi,1
+Lyon,Italian,163
+Lyon,Nepali,1
+Ljubljana,Turkish,3
+London,Nepali,51
+London,Canadian,3
+Lyon,Belgian,7
+London,Tunisian,2
+Ljubljana,Seafood,27
+London,Russian,10
+Luxembourg,Thai,13
+Luxembourg,British,2
+Lyon,Gastropub,51
+Lyon,South American,15
+Lyon,Tibetan,1
+Luxembourg,International,31
+London,German,24
+Luxembourg,American,17
+London,Thai,440
+London,New Zealand,4
+Lyon,Fast Food,62
+Luxembourg,Central European,10
+Lyon,Wine Bar,68
+Lyon,Grill,29
+Ljubljana,Asian,28
+London,Welsh,3
+London,Egyptian,6
+London,Burmese,4
+London,Lebanese,246
+London,Soups,164
+Luxembourg,European,237
+Ljubljana,Slovenian,151
+Ljubljana,Indian,6
+London,Fusion,134
+Lyon,Bar,78
+London,Chilean,1
+Ljubljana,Eastern European,33
+London,Malaysian,70
+Luxembourg,Argentinean,2
+London,Irish,21
+London,Street Food,83
+London,Sushi,420
+Lyon,Argentinean,3
+London,Vegan Options,2681
+London,Hawaiian,12
+Lyon,Pub,83
+Luxembourg,Persian,3
+Luxembourg,Scandinavian,4
+Lyon,European,298
+Ljubljana,International,21
+London,British,3597
+Ljubljana,European,221
+London,Filipino,10
+Luxembourg,Central American,3
+Ljubljana,Vegan Options,63
+Luxembourg,Mediterranean,93
+London,Tibetan,3
+Lyon,Sushi,47
+Lyon,Latin,11
+London,Cajun & Creole,11
+Luxembourg,Danish,3
+Ljubljana,Halal,2
+London,Hungarian,4
+Lyon,Halal,9
+London,Salvadoran,1
+Luxembourg,Greek,5
+Luxembourg,Swiss,1
+London,Vegetarian Friendly,6163
+Lyon,British,6
+London,Norwegian,4
+Luxembourg,Steakhouse,10
+Lyon,French,906
+Ljubljana,Fusion,6
+Luxembourg,Cafe,27
+London,Eastern European,134
+Ljubljana,Native American,1
+Ljubljana,Korean,1
+Luxembourg,Barbecue,2
+Luxembourg,Contemporary,5
+London,Halal,871
+Ljubljana,Central European,114
+Luxembourg,Lebanese,4
+Ljubljana,Brew Pub,1
+Ljubljana,Diner,1
+London,Asian,2139
+London,Polynesian,1
+Luxembourg,Fusion,8
+Luxembourg,Irish,1
+Lyon,Gluten Free Options,23
+Ljubljana,Pub,29
+Ljubljana,Street Food,6
+Lyon,Brew Pub,38
+Luxembourg,Latin,11
+Luxembourg,Vietnamese,5
+London,Scottish,13
+London,Japanese,542
+London,Fast Food,1119
+London,Wine Bar,247
+London,Jamaican,60
+Lyon,Pakistani,16
+Lyon,Cajun & Creole,5
+Ljubljana,Spanish,4
+London,Singaporean,17
+Lyon,Vegetarian Friendly,223
+London,French,439
+London,Minority Chinese,5
+Luxembourg,Turkish,3
+London,Grill,321
+Lyon,Diner,19
+London,Australian,25
+Luxembourg,Vegetarian Friendly,204
+Luxembourg,Bar,57
+Ljubljana,Fast Food,33
+London,Peruvian,33
+London,Sri Lankan,16
+Lyon,Pizza,130
+London,Balti,164
+Ljubljana,Bar,47
+Ljubljana,Irish,2
+Ljubljana,Argentinean,1
+London,European,2191
+Luxembourg,Xinjiang,1
+London,Middle Eastern,691
+Luxembourg,Gluten Free Options,60
+Ljubljana,Cafe,37
+Lyon,Soups,11
+Lyon,Vegan Options,51
+Lyon,Vietnamese,37
+Lyon,Barbecue,16
+Luxembourg,Brew Pub,3
+London,Arabic,20
+Luxembourg,Seafood,7
+Lyon,Yunnan,1
+Ljubljana,Gastropub,2
+London,Latin,115
+London,Uzbek,2
+Ljubljana,Central American,2
+Lyon,German,2
+Oslo,Scandinavian,144
+Munich,Turkish,39
+Madrid,Barbecue,86
+Munich,Eastern European,8
+Milan,Fusion,128
+Oporto,Fast Food,30
+Madrid,Lebanese,16
+Munich,Seafood,113
+Paris,Fusion,171
+Milan,Cafe,224
+Madrid,Welsh,1
+Milan,Israeli,4
+Milan,Southwestern,1
+Munich,Central American,13
+Oslo,Chinese,34
+Milan,German,10
+Milan,Moroccan,6
+Munich,Central Asian,1
+Paris,Barbecue,75
+Paris,Pub,478
+Madrid,Malaysian,1
+Milan,Vegetarian Friendly,1592
+Oporto,Asian,39
+Oporto,Japanese,51
+Oslo,Asian,159
+Oslo,German,4
+Paris,Israeli,21
+Paris,Irish,17
+Milan,Wine Bar,121
+Milan,Central American,10
+Milan,Singaporean,3
+Milan,Pakistani,4
+Oslo,Irish,1
+Madrid,Yunnan,1
+Oslo,South American,6
+Madrid,Russian,12
+Oslo,Middle Eastern,30
+Madrid,Moroccan,12
+Munich,International,162
+Munich,Croatian,11
+Oporto,Healthy,18
+Paris,Scandinavian,10
+Milan,Caribbean,4
+Paris,International,157
+Paris,Indonesian,10
+Munich,Central European,233
+Paris,Spanish,174
+Madrid,Georgian,4
+Milan,Eastern European,3
+Milan,Diner,7
+Madrid,French,59
+Oporto,Albanian,1
+Paris,Grill,91
+Milan,Italian,2926
+Milan,Ecuadorean,4
+Oporto,Contemporary,58
+Madrid,Delicatessen,68
+Munich,Mexican,34
+Oslo,Southwestern,3
+Madrid,Grill,70
+Paris,French,5258
+Madrid,Middle Eastern,41
+Madrid,Afghani,3
+Milan,Gluten Free Options,533
+Oporto,Brew Pub,3
+Oslo,French,32
+Milan,South American,61
+Munich,Australian,1
+Oslo,Vietnamese,20
+Oslo,Healthy,2
+Madrid,Fusion,263
+Milan,Norwegian,1
+Oslo,Pub,92
+Milan,Asian,249
+Munich,Venezuelan,1
+Oslo,Spanish,27
+Madrid,Fast Food,211
+Madrid,Colombian,10
+Madrid,Brazilian,28
+Munich,Thai,61
+Oporto,Pub,46
+Oporto,Turkish,1
+Paris,Healthy,128
+Oporto,Peruvian,1
+Paris,Fast Food,304
+Paris,Swiss,5
+Madrid,Indonesian,6
+Munich,Italian,404
+Oslo,Street Food,6
+Madrid,Balti,1
+Oporto,Latin,7
+Paris,Singaporean,1
+Lyon,Cuban,1
+Madrid,Taiwanese,7
+Oporto,Steakhouse,26
+Oporto,Belgian,2
+Paris,Delicatessen,132
+Madrid,Healthy,164
+Milan,European,526
+Milan,Filipino,4
+Munich,Asian,210
+Munich,Delicatessen,33
+Oporto,Barbecue,39
+Paris,Gastropub,232
+Munich,Tunisian,1
+Oporto,Wine Bar,58
+Milan,French,22
+Munich,Ethiopian,4
+Paris,Latin,67
+Lyon,Cambodian,6
+Munich,Afghani,11
+Oslo,Mongolian,2
+Paris,Taiwanese,13
+Paris,Afghani,7
+Madrid,Hawaiian,5
+Milan,Swedish,2
+Paris,European,3353
+Oporto,Taiwanese,1
+Oslo,Portuguese,1
+Paris,Asian,987
+Paris,Wine Bar,345
+Milan,Thai,24
+Munich,Pakistani,3
+Munich,Minority Chinese,3
+Paris,Chinese,450
+Munich,Vietnamese,90
+Madrid,Scandinavian,1
+Milan,Brazilian,25
+Munich,Swiss,2
+Munich,Romanian,1
+Oslo,Polish,1
+Munich,Kosher,1
+Paris,Brew Pub,94
+Milan,Chinese,302
+Munich,Portuguese,5
+Paris,Eastern European,19
+Oslo,Peruvian,4
+Paris,Argentinean,34
+Lyon,Chilean,1
+Madrid,Peruvian,80
+Munich,Halal,33
+Munich,Korean,8
+Oslo,Mediterranean,47
+Milan,Venezuelan,3
+Milan,Egyptian,13
+Munich,British,1
+Oslo,Hawaiian,1
+Madrid,Spanish,3198
+Madrid,German,20
+Munich,Hawaiian,3
+Paris,American,351
+Madrid,Steakhouse,130
+Oslo,Brazilian,1
+Paris,Seafood,167
+Lyon,Tunisian,8
+Madrid,Chinese,172
+Madrid,Turkish,30
+Madrid,Czech,1
+Munich,Diner,37
+Oslo,Nepali,1
+Paris,Thai,333
+Paris,Kosher,45
+Madrid,Venezuelan,46
+Paris,Japanese,716
+Madrid,Pizza,259
+Madrid,Eastern European,11
+Milan,Mongolian,2
+Oslo,Vegan Options,156
+Madrid,Sushi,158
+Oporto,Argentinean,3
+Oporto,Pizza,37
+Oporto,Diner,3
+Lyon,Ethiopian,1
+Milan,Halal,16
+Milan,Korean,18
+Madrid,Swiss,1
+Munich,South American,16
+Oporto,Vegan Options,138
+Oslo,Korean,6
+Oslo,Eastern European,1
+Oslo,Fusion,20
+Oslo,Persian,2
+Madrid,Bar,373
+Madrid,Polish,2
+Oslo,Italian,94
+Milan,Vegan Options,605
+Milan,Soups,152
+Milan,Australian,4
+Munich,Gluten Free Options,105
+Madrid,Japanese,266
+Madrid,Polynesian,1
+Oslo,Sushi,84
+Oslo,Caribbean,2
+Paris,Central European,15
+Munich,Spanish,40
+Oporto,International,53
+Oporto,Mexican,2
+Paris,Persian,15
+Oporto,Sushi,46
+Madrid,Mexican,158
+Oporto,Grill,25
+Oporto,British,1
+Milan,British,7
+Oslo,Contemporary,12
+Milan,Argentinean,15
+Munich,American,73
+Oslo,Pizza,76
+Oslo,Wine Bar,13
+Madrid,Bangladeshi,2
+Milan,Scandinavian,2
+Paris,Pakistani,33
+Paris,Bar,859
+Madrid,Thai,61
+Munich,Argentinean,3
+Munich,Pub,92
+Oslo,Vegetarian Friendly,316
+Madrid,Dutch,1
+Milan,Spanish,37
+Paris,Australian,9
+Paris,Soups,129
+Madrid,Indian,80
+Madrid,Tunisian,1
+Milan,Sri Lankan,6
+Milan,Colombian,2
+Oslo,Indian,47
+Lyon,Greek,6
+Oporto,American,21
+Milan,Greek,17
+Milan,Middle Eastern,33
+Milan,Hungarian,1
+Munich,Irish,5
+Munich,Arabic,3
+Oporto,Venezuelan,2
+Lyon,Caribbean,4
+Madrid,Cafe,313
+Munich,European,616
+Oporto,Israeli,2
+Oslo,Gastropub,18
+Oslo,Greek,4
+Madrid,Latin,114
+Oporto,Brazilian,17
+Paris,Contemporary,141
+Munich,Sushi,84
+Milan,Fast Food,174
+Paris,Mediterranean,860
+Lyon,Georgian,1
+Lyon,Colombian,3
+Oslo,Delicatessen,8
+Oslo,Central European,1
+Milan,Japanese,383
+Paris,Vegan Options,759
+Paris,Korean,119
+Munich,Fusion,25
+Paris,Moroccan,141
+Milan,Irish,4
+Oporto,Vegetarian Friendly,290
+Madrid,Tibetan,1
+Paris,Turkish,71
+Milan,Taiwanese,2
+Munich,Wine Bar,28
+Oslo,Swedish,3
+Milan,Healthy,44
+Munich,Mediterranean,372
+Oporto,Central European,4
+Paris,African,109
+Milan,Fujian,1
+Lyon,Venezuelan,2
+Oporto,German,1
+Oslo,Grill,14
+Milan,Uzbek,1
+Munich,German,397
+Oporto,French,14
+Oporto,Lebanese,1
+Madrid,Gluten Free Options,634
+Munich,Indonesian,1
+Oslo,Mexican,19
+Paris,Street Food,97
+Munich,Latin,16
+Munich,Southwestern,3
+Oporto,Kosher,1
+Oslo,American,61
+Oslo,Turkish,23
+Munich,Tibetan,1
+Oslo,Ethiopian,1
+Milan,Peruvian,22
+Munich,French,56
+Madrid,Wine Bar,60
+Madrid,Canadian,1
+Munich,Gastropub,28
+Oslo,Dutch,1
+Milan,Mexican,29
+Munich,Healthy,44
+Milan,Nepali,10
+Madrid,Egyptian,3
+Madrid,Minority Chinese,3
+Milan,Ukrainian,2
+Munich,Moroccan,3
+Paris,Diner,59
+Madrid,Ecuadorean,9
+Oslo,Lebanese,3
+Madrid,Nepali,5
+Oporto,Delicatessen,11
+Paris,South American,90
+Paris,Sushi,344
+Munich,Bar,153
+Munich,Middle Eastern,57
+Oslo,Sri Lankan,1
+Madrid,Street Food,32
+Milan,Seafood,810
+Madrid,Pub,243
+Oporto,Middle Eastern,3
+Paris,Belgian,23
+Madrid,Belgian,4
+Madrid,Portuguese,18
+Madrid,Halal,23
+Milan,Turkish,26
+Munich,Pizza,171
+Oporto,Cafe,90
+Oporto,Street Food,5
+Oslo,Jamaican,1
+Paris,Cafe,527
+Madrid,Armenian,3
+Munich,Brazilian,3
+Oslo,Japanese,76
+Madrid,Singaporean,3
+Madrid,Ukrainian,3
+Paris,Vegetarian Friendly,2739
+Paris,Lebanese,173
+Paris,Nepali,5
+Munich,Steakhouse,29
+Munich,Barbecue,26
+Munich,Street Food,13
+Oslo,Thai,56
+Milan,Dutch,1
+Paris,Steakhouse,96
+Madrid,Irish,12
+Oporto,Fusion,30
+Paris,Cambodian,30
+Madrid,Diner,62
+Milan,Lebanese,11
+Munich,Ukrainian,1
+Madrid,Italian,421
+Madrid,Caribbean,27
+Oporto,Southwestern,1
+Oslo,Central American,7
+Madrid,Greek,21
+Milan,Pub,261
+Munich,Mongolian,5
+Oslo,Afghani,1
+Paris,Peruvian,27
+Oporto,Seafood,43
+Madrid,European,1016
+Munich,Austrian,26
+Munich,Indian,66
+Oslo,Soups,15
+Milan,Ethiopian,6
+Milan,Street Food,52
+Munich,Russian,2
+Madrid,Central European,11
+Munich,African,8
+Oporto,Mediterranean,368
+Paris,Tunisian,44
+Madrid,Pakistani,7
+Madrid,Filipino,5
+Munich,Soups,23
+Munich,Peruvian,2
+Oporto,Portuguese,848
+Milan,Arabic,7
+Oslo,Norwegian,187
+Oslo,British,3
+Madrid,British,9
+Munich,Polynesian,1
+Lyon,Taiwanese,1
+Lyon,Central American,3
+Madrid,African,16
+Munich,Greek,89
+Paris,Italian,1282
+Madrid,South American,193
+Madrid,Chilean,3
+Munich,Vegan Options,245
+Oporto,Soups,33
+Paris,Russian,23
+Madrid,Asian,312
+Munich,Persian,4
+Munich,Caribbean,2
+Paris,Greek,66
+Oporto,South American,17
+Lyon,Danish,1
+Oslo,Gluten Free Options,228
+Milan,Belgian,2
+Madrid,Romanian,3
+Madrid,Cajun & Creole,1
+Milan,Vietnamese,10
+Munich,Brew Pub,7
+Paris,Mexican,82
+Lyon,Albanian,2
+Milan,Sushi,299
+Milan,Malaysian,1
+Munich,Contemporary,22
+Munich,Japanese,77
+Munich,Cajun & Creole,2
+Munich,Georgian,1
+Oporto,Thai,1
+Oporto,Gastropub,7
+Oslo,Fast Food,53
+Milan,Persian,2
+Oporto,Gluten Free Options,104
+Paris,Gluten Free Options,391
+Madrid,Albanian,1
+Milan,Brew Pub,82
+Oporto,Spanish,60
+Oslo,Steakhouse,12
+Oslo,African,2
+Madrid,Vegan Options,596
+Munich,Nepali,2
+Oslo,Seafood,35
+Paris,Pizza,556
+Madrid,International,348
+Milan,Central European,6
+Milan,Scottish,1
+Munich,Malaysian,1
+Madrid,Persian,3
+Oslo,Latin,5
+Paris,Vietnamese,331
+Paris,British,22
+Madrid,Central American,31
+Paris,Portuguese,41
+Madrid,Contemporary,145
+Oslo,Chilean,1
+Madrid,Kosher,1
+Milan,Latin,34
+Paris,Ethiopian,13
+Milan,Austrian,4
+Madrid,Ethiopian,3
+Oslo,Barbecue,21
+Paris,Brazilian,31
+Milan,Kosher,4
+Oporto,Bar,81
+Oslo,Cajun & Creole,2
+Milan,Russian,5
+Milan,Delicatessen,59
+Munich,Balti,1
+Oporto,African,7
+Paris,Halal,110
+Madrid,Arabic,2
+Milan,Minority Chinese,5
+Munich,Chinese,72
+Oporto,European,834
+Lyon,Welsh,1
+Milan,Mediterranean,1377
+Milan,Tibetan,3
+Munich,Cafe,126
+Munich,Hungarian,1
+Milan,African,17
+Madrid,Mediterranean,2074
+Madrid,Argentinean,88
+Oporto,Chinese,10
+Oslo,Pakistani,12
+Milan,Cuban,3
+Oporto,Italian,60
+Oslo,Halal,11
+Paris,Indian,234
+Madrid,Central Asian,2
+Milan,Steakhouse,70
+Milan,Bar,336
+Oslo,Diner,13
+Lyon,Armenian,7
+Madrid,Brew Pub,39
+Milan,Barbecue,133
+Milan,American,118
+Paris,Central American,36
+Oslo,Bar,124
+Paris,Sri Lankan,7
+Madrid,Cuban,10
+Paris,Cajun & Creole,26
+Lyon,Canadian,1
+Munich,Lebanese,11
+Oporto,Indian,6
+Oslo,Cafe,62
+Madrid,American,305
+Milan,Grill,22
+Oslo,Moroccan,3
+Oslo,Danish,5
+Madrid,Seafood,160
+Madrid,Soups,30
+Munich,Grill,41
+Paris,Middle Eastern,252
+Milan,Indian,46
+Oporto,Greek,1
+Oslo,European,337
+Madrid,Fujian,1
+Madrid,Swedish,1
+Munich,Fast Food,56
+Milan,Contemporary,66
+Milan,Hawaiian,1
+Munich,Israeli,3
+Milan,Pizza,909
+Madrid,Vietnamese,21
+Milan,International,136
+Oslo,International,60
+Madrid,Vegetarian Friendly,1366
+Madrid,Gastropub,62
+Madrid,Korean,12
+Madrid,Salvadoran,2
+Madrid,Israeli,3
+Milan,Gastropub,45
+Munich,Vegetarian Friendly,880
+Oslo,Brew Pub,6
+Prague,Brew Pub,17
+Prague,Japanese,86
+Prague,Scottish,1
+Prague,American,168
+Rome,Filipino,5
+Prague,Italian,387
+Prague,Ukrainian,1
+Prague,Central American,15
+Prague,Hungarian,1
+Prague,Arabic,4
+Prague,Wine Bar,74
+Prague,Gastropub,46
+Rome,Grill,38
+Rome,Central American,12
+Paris,Central Asian,3
+Prague,French,79
+Paris,Arabic,11
+Paris,German,6
+Rome,Delicatessen,167
+Paris,Georgian,1
+Prague,Delicatessen,27
+Rome,Indonesian,2
+Rome,Cafe,212
+Rome,Argentinean,9
+Rome,Persian,5
+Rome,Thai,27
+Prague,Sushi,80
+Rome,Gluten Free Options,919
+Paris,Malaysian,3
+Paris,Uzbek,1
+Rome,Vegetarian Friendly,2507
+Prague,South American,16
+Rome,Irish,12
+Prague,British,12
+Prague,Fast Food,284
+Prague,Israeli,5
+Prague,Romanian,1
+Paris,Hungarian,1
+Rome,Barbecue,111
+Paris,Hawaiian,6
+Prague,Mexican,55
+Rome,Egyptian,5
+Paris,Egyptian,3
+Prague,Barbecue,50
+Paris,Croatian,1
+Rome,Norwegian,2
+Prague,Kosher,5
+Paris,Venezuelan,2
+Prague,Fusion,37
+Paris,Polish,7
+Prague,Austrian,8
+Rome,Moroccan,4
+Prague,Gluten Free Options,296
+Prague,Irish,11
+Prague,Asian,252
+Rome,Halal,16
+Prague,Brazilian,6
+Prague,Street Food,12
+Rome,Indian,28
+Prague,Vegetarian Friendly,778
+Rome,South American,34
+Paris,Albanian,2
+Rome,Street Food,91
+Rome,Tunisian,2
+Paris,Scottish,2
+Prague,Swedish,1
+Prague,Healthy,43
+Prague,Central European,832
+Rome,Fusion,74
+Paris,Minority Chinese,1
+Paris,Xinjiang,1
+Rome,Wine Bar,210
+Rome,Greek,13
+Rome,German,11
+Prague,Mediterranean,204
+Rome,Diner,4
+Prague,Diner,60
+Paris,Mongolian,1
+Paris,Cuban,9
+Rome,Pizza,1486
+Rome,Ethiopian,9
+Prague,Thai,68
+Rome,Healthy,39
+Prague,Spanish,29
+Rome,Pakistani,2
+Rome,Scottish,1
+Prague,Cafe,409
+Rome,Soups,169
+Rome,Japanese,168
+Rome,Peruvian,13
+Rome,Asian,137
+Prague,International,333
+Prague,Argentinean,8
+Rome,Hawaiian,2
+Prague,Chinese,102
+Prague,Mongolian,1
+Rome,Kosher,17
+Paris,Ukrainian,3
+Rome,Polish,1
+Rome,Ukrainian,1
+Paris,Armenian,2
+Prague,Middle Eastern,32
+Paris,Filipino,1
+Rome,Vegan Options,1133
+Rome,British,8
+Paris,Danish,4
+Prague,Seafood,55
+Prague,Scandinavian,2
+Rome,Australian,1
+Prague,Greek,21
+Prague,European,1981
+Prague,Lebanese,8
+Prague,Danish,1
+Paris,Norwegian,2
+Rome,Latin,20
+Prague,Moroccan,1
+Rome,Central European,17
+Prague,Tibetan,2
+Rome,Fast Food,293
+Paris,Native American,1
+Prague,Slovenian,1
+Rome,Brazilian,14
+Prague,Russian,9
+Prague,Pub,452
+Rome,Mediterranean,2210
+Rome,Afghani,2
+Prague,Taiwanese,2
+Rome,European,681
+Paris,Chilean,1
+Prague,Afghani,1
+Rome,Venezuelan,5
+Rome,Malaysian,2
+Rome,Vietnamese,7
+Prague,Vegan Options,295
+Rome,Contemporary,66
+Rome,Chinese,151
+Rome,Eastern European,1
+Prague,Georgian,2
+Paris,Caribbean,36
+Prague,African,5
+Prague,Grill,52
+Rome,French,18
+Rome,Minority Chinese,1
+Paris,Colombian,8
+Prague,Latin,22
+Prague,Central Asian,1
+Prague,Norwegian,1
+Rome,Brew Pub,142
+Paris,Tibetan,18
+Prague,Nepali,4
+Prague,Canadian,3
+Rome,American,113
+Prague,Belgian,5
+Prague,Soups,45
+Rome,Pub,331
+Rome,African,11
+Rome,Middle Eastern,35
+Rome,Israeli,12
+Rome,Balti,1
+Prague,Contemporary,37
+Prague,Caribbean,4
+Rome,Bar,333
+Rome,Korean,8
+Prague,Uzbek,2
+Prague,Southwestern,3
+Prague,Croatian,4
+Prague,Fujian,1
+Rome,Sushi,119
+Paris,Bangladeshi,4
+Rome,International,155
+Prague,Halal,17
+Rome,Seafood,832
+Prague,Minority Chinese,1
+Rome,Steakhouse,77
+Prague,Indonesian,6
+Prague,Cuban,3
+Prague,Bangladeshi,5
+Rome,Swiss,1
+Prague,Pizza,232
+Paris,Southwestern,1
+Paris,Canadian,4
+Prague,Indian,68
+Prague,Ethiopian,1
+Paris,Dutch,1
+Rome,Lebanese,9
+Prague,Pakistani,5
+Prague,Turkish,27
+Prague,Armenian,2
+Prague,Venezuelan,1
+Rome,Scandinavian,3
+Rome,Austrian,4
+Prague,Swiss,2
+Prague,German,3
+Rome,Mexican,30
+Prague,Czech,1578
+Prague,Steakhouse,49
+Prague,Vietnamese,85
+Rome,Danish,2
+Paris,Romanian,2
+Rome,Gastropub,86
+Rome,Italian,3822
+Prague,Sri Lankan,2
+Rome,Turkish,11
+Rome,Nepali,1
+Rome,Spanish,17
+Prague,Eastern European,372
+Prague,Korean,12
+Prague,Bar,583
+Paris,Swedish,3
+Rome,Portuguese,1
+Stockholm,Gluten Free Options,284
+Zurich,Vegan Options,163
+Stockholm,South American,16
+Stockholm,Australian,2
+Stockholm,African,6
+Zurich,Mexican,20
+Stockholm,Thai,71
+Stockholm,Fast Food,62
+Stockholm,Grill,17
+Zurich,Barbecue,24
+Stockholm,Sushi,134
+Vienna,Ukrainian,3
+Zurich,Italian,242
+Zurich,Fusion,14
+Warsaw,Nepali,8
+Zurich,Egyptian,1
+Warsaw,Georgian,6
+Vienna,Pub,148
+Vienna,Central American,12
+Rome,Southwestern,1
+Warsaw,Azerbaijani,1
+Vienna,Gastropub,56
+Vienna,Georgian,1
+Warsaw,Vegan Options,163
+Warsaw,International,147
+Zurich,Malaysian,5
+Stockholm,Albanian,1
+Vienna,Gluten Free Options,250
+Warsaw,Middle Eastern,32
+Vienna,Vegetarian Friendly,958
+Vienna,Sushi,108
+Vienna,Soups,47
+Stockholm,Austrian,2
+Warsaw,African,1
+Warsaw,Asian,168
+Warsaw,Czech,7
+Vienna,Thai,36
+Warsaw,Irish,2
+Zurich,Middle Eastern,36
+Stockholm,Hawaiian,3
+Stockholm,European,716
+Vienna,Egyptian,4
+Stockholm,Greek,28
+Stockholm,Argentinean,4
+Vienna,European,1245
+Vienna,Native American,1
+Warsaw,Spanish,31
+Stockholm,Italian,170
+Stockholm,Brazilian,2
+Warsaw,Tibetan,1
+Vienna,French,30
+Warsaw,Pakistani,1
+Zurich,Central American,6
+Vienna,Peruvian,6
+Warsaw,Street Food,5
+Zurich,Swiss,323
+Zurich,Jamaican,1
+Zurich,Persian,2
+Vienna,Steakhouse,34
+Warsaw,Croatian,3
+Warsaw,Portuguese,1
+Zurich,German,19
+Zurich,Sushi,48
+Vienna,Venezuelan,1
+Stockholm,Colombian,1
+Warsaw,Taiwanese,1
+Warsaw,Greek,10
+Warsaw,Delicatessen,3
+Warsaw,Cuban,2
+Rome,Colombian,2
+Stockholm,Cuban,1
+Vienna,Israeli,18
+Vienna,Czech,5
+Rome,Romanian,1
+Vienna,Fusion,60
+Zurich,Argentinean,8
+Stockholm,Contemporary,18
+Zurich,French,46
+Stockholm,Mexican,25
+Stockholm,Korean,20
+Warsaw,Latin,11
+Warsaw,Indonesian,4
+Zurich,Delicatessen,23
+Stockholm,Vietnamese,18
+Vienna,Romanian,2
+Warsaw,Israeli,16
+Zurich,Brazilian,5
+Stockholm,Taiwanese,1
+Warsaw,Fusion,57
+Zurich,Bangladeshi,1
+Rome,Native American,1
+Stockholm,British,18
+Stockholm,Lebanese,22
+Zurich,American,55
+Vienna,Wine Bar,123
+Zurich,Pakistani,6
+Vienna,International,188
+Warsaw,Dutch,1
+Vienna,African,4
+Vienna,Scottish,1
+Warsaw,Steakhouse,33
+Warsaw,Chilean,1
+Zurich,Greek,9
+Zurich,Vietnamese,23
+Stockholm,Diner,7
+Zurich,Halal,18
+Zurich,Seafood,29
+Stockholm,Scandinavian,289
+Vienna,Belgian,1
+Warsaw,Central American,8
+Rome,Russian,1
+Stockholm,Chinese,78
+Zurich,Gastropub,4
+Vienna,Afghani,1
+Warsaw,Scandinavian,1
+Stockholm,American,97
+Stockholm,German,8
+Stockholm,Caribbean,3
+Vienna,Portuguese,7
+Zurich,Australian,1
+Zurich,Peruvian,2
+Rome,Fujian,1
+Stockholm,Dutch,1
+Vienna,Hungarian,10
+Vienna,Argentinean,4
+Zurich,Lebanese,21
+Vienna,Japanese,104
+Vienna,Mexican,26
+Zurich,Tibetan,3
+Zurich,Austrian,6
+Stockholm,Irish,6
+Stockholm,Street Food,6
+Vienna,German,209
+Vienna,Italian,339
+Vienna,Cafe,194
+Warsaw,Brazilian,1
+Zurich,Indian,51
+Zurich,Indonesian,3
+Zurich,Pub,72
+Zurich,Central Asian,1
+Stockholm,Brew Pub,4
+Stockholm,Belgian,3
+Vienna,Polish,4
+Warsaw,Halal,12
+Zurich,South American,14
+Stockholm,Asian,194
+Zurich,Diner,21
+Stockholm,Czech,1
+Vienna,Australian,1
+Warsaw,Grill,30
+Warsaw,Lebanese,18
+Warsaw,Sri Lankan,1
+Vienna,Swedish,1
+Vienna,Irish,9
+Warsaw,Bar,136
+Vienna,Spanish,29
+Vienna,Brew Pub,14
+Vienna,Tunisian,1
+Warsaw,Wine Bar,36
+Warsaw,Seafood,23
+Warsaw,Romanian,1
+Vienna,Street Food,13
+Warsaw,Kosher,5
+Stockholm,Halal,12
+Warsaw,Moroccan,2
+Stockholm,Mongolian,4
+Vienna,Latin,18
+Vienna,Malaysian,2
+Zurich,Hawaiian,2
+Rome,Swedish,2
+Warsaw,Vietnamese,29
+Warsaw,Arabic,9
+Warsaw,Hungarian,4
+Vienna,Turkish,41
+Stockholm,Middle Eastern,52
+Vienna,Fujian,1
+Zurich,European,591
+Warsaw,South American,5
+Stockholm,Afghani,2
+Rome,Belgian,1
+Stockholm,Turkish,20
+Zurich,Gluten Free Options,150
+Zurich,Vegetarian Friendly,602
+Zurich,Contemporary,28
+Vienna,Halal,28
+Vienna,Taiwanese,5
+Zurich,Japanese,50
+Warsaw,Thai,60
+Warsaw,Italian,265
+Stockholm,Barbecue,50
+Stockholm,Indonesian,2
+Stockholm,Vegan Options,244
+Stockholm,Eastern European,7
+Warsaw,British,6
+Stockholm,Seafood,45
+Stockholm,Pizza,123
+Vienna,Kosher,7
+Warsaw,American,78
+Stockholm,Cafe,103
+Stockholm,Healthy,16
+Vienna,Vegan Options,302
+Warsaw,Cafe,84
+Stockholm,Ethiopian,4
+Vienna,Russian,7
+Warsaw,Soups,46
+Warsaw,Russian,5
+Zurich,Nepali,2
+Vienna,Barbecue,41
+Zurich,African,5
+Stockholm,French,60
+Zurich,Danish,1
+Stockholm,Polish,3
+Zurich,Singaporean,1
+Stockholm,Caucasian,7
+Vienna,Mongolian,1
+Warsaw,Healthy,48
+Rome,Cajun & Creole,1
+Rome,Albanian,1
+Vienna,Balti,2
+Warsaw,German,5
+Stockholm,Southwestern,1
+Warsaw,Fast Food,51
+Warsaw,Australian,1
+Stockholm,Wine Bar,17
+Vienna,Korean,18
+Zurich,Grill,34
+Rome,Cuban,1
+Stockholm,Gastropub,12
+Zurich,Irish,5
+Vienna,Filipino,2
+Zurich,Polynesian,1
+Stockholm,Danish,3
+Stockholm,Cajun & Creole,1
+Vienna,Eastern European,22
+Vienna,Cuban,3
+Vienna,Tibetan,2
+Warsaw,Tunisian,1
+Stockholm,Soups,14
+Vienna,South American,20
+Stockholm,Bar,195
+Stockholm,Swedish,449
+Vienna,Diner,48
+Vienna,Seafood,81
+Warsaw,Central European,222
+Zurich,Spanish,29
+Stockholm,Venezuelan,1
+Zurich,Ethiopian,3
+Stockholm,Georgian,1
+Vienna,Delicatessen,36
+Zurich,International,97
+Vienna,Swiss,2
+Vienna,Moroccan,6
+Vienna,Contemporary,49
+Warsaw,Gastropub,20
+Warsaw,Caribbean,2
+Stockholm,Arabic,2
+Vienna,Brazilian,2
+Warsaw,Pizza,106
+Warsaw,Diner,10
+Warsaw,Eastern European,128
+Warsaw,Mediterranean,183
+Warsaw,Chinese,38
+Zurich,Belgian,1
+Stockholm,Japanese,116
+Vienna,Arabic,6
+Vienna,Lebanese,16
+Vienna,Southwestern,3
+Warsaw,Egyptian,4
+Warsaw,Southwestern,1
+Zurich,Pizza,101
+Rome,Taiwanese,2
+Rome,Arabic,5
+Stockholm,Spanish,54
+Stockholm,Russian,2
+Vienna,American,77
+Zurich,Thai,70
+Zurich,Chinese,55
+Zurich,Balti,1
+Zurich,Soups,34
+Stockholm,Steakhouse,33
+Stockholm,Israeli,1
+Vienna,Austrian,947
+Zurich,Bar,134
+Vienna,Mediterranean,310
+Stockholm,Jamaican,2
+Stockholm,Latin,21
+Warsaw,Hawaiian,2
+Vienna,Croatian,21
+Zurich,Portuguese,2
+Stockholm,Central American,1
+Stockholm,Swiss,1
+Warsaw,French,34
+Zurich,Mediterranean,252
+Zurich,Latin,12
+Rome,Caribbean,2
+Stockholm,Vegetarian Friendly,625
+Vienna,Asian,267
+Vienna,Healthy,37
+Vienna,Persian,9
+Stockholm,Armenian,1
+Warsaw,Polish,473
+Zurich,Caribbean,1
+Zurich,Tunisian,1
+Rome,Jamaican,1
+Zurich,Fast Food,56
+Warsaw,Contemporary,34
+Warsaw,Barbecue,19
+Warsaw,Central Asian,1
+Vienna,Grill,40
+Vienna,Middle Eastern,92
+Zurich,Turkish,21
+Vienna,Bar,215
+Vienna,Pizza,197
+Zurich,Moroccan,6
+Stockholm,International,109
+Stockholm,Indian,78
+Vienna,Scandinavian,2
+Warsaw,Gluten Free Options,105
+Warsaw,Sushi,104
+Zurich,Central European,200
+Stockholm,Chilean,1
+Vienna,Fast Food,71
+Stockholm,Persian,8
+Stockholm,Malaysian,2
+Vienna,Central European,532
+Warsaw,Belgian,4
+Vienna,Vietnamese,42
+Warsaw,Malaysian,1
+Zurich,Asian,187
+Zurich,Arabic,1
+Vienna,Caribbean,3
+Warsaw,European,711
+Warsaw,Vegetarian Friendly,465
+Warsaw,Japanese,104
+Stockholm,Fusion,22
+Vienna,Armenian,2
+Warsaw,Indian,50
+Warsaw,Venezuelan,1
+Zurich,Israeli,4
+Stockholm,Pakistani,8
+Vienna,Danish,1
+Zurich,British,8
+Warsaw,Argentinean,4
+Zurich,Healthy,39
+Vienna,Ecuadorean,1
+Zurich,Cafe,80
+Stockholm,Ukrainian,1
+Stockholm,New Zealand,2
+Vienna,Indonesian,1
+Stockholm,Peruvian,7
+Vienna,Pakistani,4
+Vienna,Bangladeshi,1
+Zurich,Sri Lankan,7
+Zurich,Kosher,1
+Stockholm,Central European,20
+Zurich,Korean,6
+Zurich,Cambodian,1
+Zurich,Southwestern,3
+Rome,Bangladeshi,2
+Stockholm,Bangladeshi,3
+Vienna,Ethiopian,2
+Warsaw,Balti,1
+Warsaw,Brew Pub,17
+Warsaw,Mexican,28
+Zurich,Wine Bar,29
+Stockholm,Pub,146
+Vienna,British,7
+Vienna,Sri Lankan,6
+Warsaw,Pub,113
+Zurich,Steakhouse,22
+Stockholm,Mediterranean,130
+Vienna,Chinese,136
+Warsaw,Ukrainian,7
+Stockholm,Delicatessen,11
+Vienna,Greek,41
+Zurich,Eastern European,2
+Vienna,Indian,56
+Warsaw,Turkish,22
+Warsaw,Korean,14
+Zurich,Scandinavian,1
+Zurich,Street Food,6
+Zurich,Native American,1
