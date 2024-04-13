@@ -12,7 +12,7 @@ hdfs_nn = sys.argv[1]
 spark = SparkSession.builder.appName("Assigment 2 Question 5").getOrCreate()
 # YOUR CODE GOES BELOW
 
-#hdfs_nn = "localhost"  # Replace with your actual HDFS NameNode IP
+#hdfs_nn = "172.31.29.168"  # Replace with your actual HDFS NameNode IP
 
 df = spark.read.option("header", True).parquet(f'hdfs://{hdfs_nn}:9000/assignment2/part2/input/')
 df.printSchema()

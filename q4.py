@@ -6,8 +6,9 @@ from pyspark.sql.types import StringType
 # Initialize Spark session
 spark = SparkSession.builder.appName("Assigment 2 Question 4").getOrCreate()
 
+hdfs_nn = sys.argv[1]
 # Read the data from HDFS
-hdfs_nn = "172.31.29.168"  # Replace with your actual HDFS NameNode IP
+#hdfs_nn = "172.31.29.168"  # Replace with your actual HDFS NameNode IP
 input_file_name = 'TA_restaurants_curated_cleaned.csv'
 df = spark.read.option("header", True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/part1/input/{input_file_name}')
 df.printSchema()

@@ -7,11 +7,11 @@ from pyspark.sql.functions import col
 
 
 # don't change this line
-# hdfs_nn = sys.argv[1]
+hdfs_nn = sys.argv[1]
 
 spark = SparkSession.builder.appName("Assigment 2 Question 1").getOrCreate()
 # YOUR CODE GOES BELOW
-hdfs_nn ="172.31.29.168"
+#hdfs_nn ="172.31.29.168"
 
 # note that we load the text file directly with a local path instead of providing an hdfs url
 df = spark.read.option("header",True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/part1/input/')
