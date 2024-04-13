@@ -19,4 +19,4 @@ explode_df = df.withColumn("Cuisine", explode(split("Cuisine Style", ", ")))
 cleaned_df = explode_df.withColumn("Cuisine", trim(regexp_replace("Cuisine", "\\'|\\]|\\[", "")))
 output_df = cleaned_df.groupBy("City", "Cuisine").count()
 
-output_df.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question4/output.csv', header='true')
+output_df.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question4/', header='true')

@@ -29,6 +29,6 @@ df_worst_restaurant = df_price_not_null.withColumn("rank", dense_rank().over(wor
 #df_best_restaurant.printSchema()
 
 df_out = df_worst_restaurant.union(df_best_restaurant)
-df_out.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question2/output.csv', header='true')
+df_out.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question2/', header='true')
 df_out.show(truncate=False)
 

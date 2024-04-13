@@ -22,4 +22,4 @@ df_worst = df_avg_rating.sort(asc("AverageRating")).limit(3).withColumn("RatingG
 
 df_out = df_best.union(df_worst).orderBy(col("AverageRating").desc())
 df_out.show(truncate=False)
-df_out.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question3/output.csv', header='true')
+df_out.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question3/', header='true')

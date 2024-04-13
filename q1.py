@@ -24,6 +24,6 @@ df_filtered = df_filtered.filter(col("Number of Reviews") > 0)
 
 #Even when Number of Reviews > 0 , can still be empty reviews
 df_filtered = df_filtered.filter(col("Reviews") != '[ [  ], [  ] ]')
-df_filtered.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question1/output.csv', header=True)
+df_filtered.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question1/', header=True)
 df_filtered.show()
 
