@@ -1,6 +1,6 @@
 import sys
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, explode_outer, regexp_replace, split, trim
+from pyspark.sql.functions import explode, regexp_replace, split, trim
 from pyspark.sql.types import StringType
 
 # Initialize Spark session
@@ -13,24 +13,10 @@ df = spark.read.option("header", True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/p
 df.printSchema()
 
 # Preprocess the "Cuisine Style" column to clean it up for splitting
-df = df.withColumn("Cuisine Style", regexp_replace(col("Cuisine Style"), "\[|\]", ""))  # Remove the square brackets
-df = df.withColumn("Cuisine Style", regexp_replace(col("Cuisine Style"), "'", ""))  # Remove single quotes
-df = df.withColumn("Cuisine Style", trim(col("Cuisine Style")))  # Trim whitespace
+#Convert Cuisine Style to Array to be exploded into a new row for each element in the array
+explode_df = df.withColumn("Cuisine", explode(split("Cuisine Style", ", ")))
+#Clean up Cuisine Column
+cleaned_df = explode_df.withColumn("Cuisine", trim(regexp_replace("Cuisine", "\\'|\\]|\\[", "")))
+output_df = cleaned_df.groupBy("City", "Cuisine").count()
 
-# Split the "Cuisine Style" into an array of cuisines
-df = df.withColumn("Cuisines", split(col("Cuisine Style"), ",\s*").cast("array<string>"))
-
-# Explode the array to have a row for each cuisine per restaurant
-df = df.select(col("City"), explode_outer(col("Cuisines")).alias("Cuisine"))
-
-# Clean up exploded cuisines
-df = df.withColumn("Cuisine", trim(df.Cuisine))
-
-# Group by City and Cuisine to count occurrences
-df_city_cuisine_count = df.groupBy("City", "Cuisine").count()
-
-# Show the results
-df_city_cuisine_count.show(truncate=False)
-
-# Write the result to a CSV file in HDFS
-df_city_cuisine_count.write.option("header", "true").csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question4/output.csv')
+output_df.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question4/output.csv', header='true')
