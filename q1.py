@@ -1,28 +1,29 @@
 import sys
 from pyspark.sql import SparkSession
-from pyspark.sql.types import IntegerType
-from pyspark.sql.functions import col, array_contains
+from pyspark.sql.types import FloatType
+from pyspark.sql.functions import col
 
 # you may add more import if you need to
 
 
 # don't change this line
-hdfs_nn = sys.argv[1]
+# hdfs_nn = sys.argv[1]
 
 spark = SparkSession.builder.appName("Assigment 2 Question 1").getOrCreate()
 # YOUR CODE GOES BELOW
+hdfs_nn ="172.31.29.168"
 
 # note that we load the text file directly with a local path instead of providing an hdfs url
-input_file_name = 'input/TA_restaurants_curated_cleaned.csv'
-hdfs_nn ="172.31.29.168" #TODO: Replace with 
 df = spark.read.option("header",True).csv(f'hdfs://{hdfs_nn}:9000/assignment2/part1/input/')
 df.printSchema()
 
-df_has_empty_reviews = df.filter(col("Number of Reviews").isNotNull())
-df_ratings_int = df_has_empty_reviews.withColumn('Rating_int', df['Rating'].cast(IntegerType()))
-df_filtered = df_ratings_int.filter(df_ratings_int.Rating_int>=1).drop('Rating_int')
-# df_filtered.show(truncate=False)
+df_noNull = df.na.fill(value=0,subset=['Rating','Number of Reviews'])
+df_casted = df_noNull.withColumn("Rating",col("Rating").cast(FloatType()))
+df_filtered = df_casted.filter(col("Rating")>= 1.0)
+df_filtered = df_filtered.filter(col("Number of Reviews") > 0)
 
+#Even when Number of Reviews > 0 , can still be empty reviews
+df_filtered = df_filtered.filter(col("Reviews") != '[ [  ], [  ] ]')
+df_filtered.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question1/output.csv', header=True)
+df_filtered.show()
 
-df_filtered.write.csv(f'hdfs://{hdfs_nn}:9000/assignment2/output/question1/output.csv', header='true')
-# df_filtered.show(truncate=False)
