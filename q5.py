@@ -69,4 +69,6 @@ output = exploded_pairs.join(filtered_pairs, ["actor1", "actor2"]).select("movie
 output = output.dropDuplicates()
 #print(f"Result Count: {output.count()}")
 #output.show(truncate=False,n=10)
+output.show()
+
 output.write.option("header", True).mode("overwrite").parquet("hdfs://%s:9000/assignment2/output/question5/" % (hdfs_nn))
